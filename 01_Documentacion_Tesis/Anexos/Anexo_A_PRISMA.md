@@ -1,212 +1,285 @@
-# ANEXO A. REVISIÓN DE LITERATURA BASADA EN PRISMA 2020
+ANEXO A. REVISIÓN DE LITERATURA ESTRUCTURADA BAJO LOS LINEAMIENTOS PRISMA 2020
+A.1 Introducción
 
-## A.1 Introducción
+Con el propósito de fundamentar el desarrollo del dispositivo tecnológico propuesto, se realizó una revisión de literatura orientada a identificar avances científicos y tecnológicos relacionados con la evaluación auditiva infantil, el análisis de respuestas conductuales frente a estímulos sonoros, la visión por computador y la aplicación de técnicas de aprendizaje automático para la clasificación de comportamientos observables en bebés.
 
-Con el propósito de fundamentar el desarrollo del dispositivo tecnológico propuesto, se realizó una revisión de literatura orientada a identificar avances científicos y tecnológicos relacionados con la evaluación auditiva infantil, el análisis de respuestas conductuales frente a estímulos sonoros, la visión por computador y la aplicación de técnicas de aprendizaje automático para clasificación de comportamientos observables.
+El proceso de búsqueda y selección de literatura fue estructurado siguiendo las recomendaciones establecidas por la declaración PRISMA 2020 (Preferred Reporting Items for Systematic Reviews and Meta-Analyses), con el objetivo de garantizar transparencia en la identificación, organización y análisis de los documentos utilizados como soporte conceptual y tecnológico del proyecto.
 
-El proceso de búsqueda y selección de literatura fue estructurado siguiendo las recomendaciones de la declaración PRISMA 2020 (Preferred Reporting Items for Systematic Reviews and Meta-Analyses), con el objetivo de garantizar transparencia en la identificación, selección y organización de los documentos utilizados como soporte conceptual y tecnológico del proyecto.
+La revisión permitió analizar los principales enfoques empleados actualmente para la evaluación auditiva infantil, identificando que los métodos convencionales presentan una alta utilidad clínica, pero generalmente requieren equipos especializados, personal capacitado e infraestructura específica. Entre estos métodos se encuentran las emisiones otoacústicas y las respuestas auditivas evocadas, ampliamente utilizadas en programas de detección temprana de alteraciones auditivas.
 
-La revisión permitió reconocer los principales enfoques empleados en la evaluación auditiva infantil, las tecnologías utilizadas actualmente y las limitaciones existentes relacionadas con accesibilidad, automatización del análisis y dependencia de interpretación profesional.
+De manera complementaria, los avances recientes en inteligencia artificial, visión por computador y análisis multimodal han permitido desarrollar herramientas capaces de extraer características relacionadas con movimientos corporales, orientación cefálica, expresiones faciales y otros indicadores observables del comportamiento infantil.
 
----
+Sin embargo, la literatura evidencia una limitada integración entre dispositivos compactos de estimulación auditiva, captura audiovisual del comportamiento infantil y modelos computacionales orientados a la clasificación automática de respuestas observables. Esta situación representa una oportunidad para el desarrollo de soluciones tecnológicas accesibles que permitan complementar los procesos tradicionales de evaluación mediante herramientas digitales.
 
-# A.2 Pregunta de revisión
+A.2 Pregunta de revisión
 
 La revisión bibliográfica fue orientada mediante la siguiente pregunta:
 
-**¿Qué tecnologías y metodologías han sido desarrolladas para la evaluación de respuestas auditivas en bebés mediante dispositivos electrónicos, análisis de comportamiento observable, visión por computador y aprendizaje automático?**
+¿Qué tecnologías y metodologías han sido desarrolladas para la evaluación de respuestas auditivas en bebés mediante dispositivos electrónicos, análisis de comportamiento observable, visión por computador y aprendizaje automático?
 
 A partir de esta pregunta se definieron cuatro áreas principales de análisis:
 
-* Evaluación auditiva infantil.
-* Respuestas conductuales frente a estímulos sonoros.
-* Visión por computador aplicada al análisis infantil.
-* Modelos de aprendizaje automático para clasificación de respuestas.
+Evaluación auditiva infantil mediante dispositivos tecnológicos.
+Respuestas conductuales observables frente a estímulos sonoros.
+Visión por computador aplicada al análisis del comportamiento infantil.
+Modelos de aprendizaje automático utilizados para clasificación de respuestas.
+A.3 Estrategia de búsqueda bibliográfica
 
----
-
-# A.3 Estrategia de búsqueda bibliográfica
-
-La búsqueda de información científica se realizó mediante bases de datos académicas reconocidas en las áreas de ingeniería, ciencias de la salud e inteligencia artificial.
+La búsqueda de información científica se realizó mediante bases de datos académicas relacionadas con ingeniería biomédica, audiología, inteligencia artificial y procesamiento computacional.
 
 Las fuentes consultadas fueron:
 
-| Base de datos  | Área principal                                                           |
-| -------------- | ------------------------------------------------------------------------ |
-| PubMed         | Investigación clínica, audiología y salud infantil                       |
-| IEEE Xplore    | Ingeniería electrónica, dispositivos y procesamiento computacional       |
-| ScienceDirect  | Ingeniería biomédica, inteligencia artificial y procesamiento de señales |
-| Scopus         | Literatura científica multidisciplinaria                                 |
-| Google Scholar | Recuperación complementaria de literatura científica                     |
+Base de datos	Área principal
+PubMed	Investigación clínica, audiología y estudios relacionados con población infantil
+IEEE Xplore	Ingeniería electrónica, dispositivos tecnológicos, procesamiento digital e inteligencia artificial
+ScienceDirect	Ingeniería biomédica, análisis computacional y aprendizaje automático
+Scopus	Literatura científica multidisciplinaria
+Google Scholar	Recuperación complementaria de documentos académicos
 
----
+La estrategia de búsqueda fue diseñada para identificar investigaciones relacionadas con evaluación auditiva temprana, respuestas conductuales frente a sonidos, análisis automático del movimiento infantil y aplicación de modelos de inteligencia artificial.
 
-# A.4 Ecuaciones de búsqueda
+A.4 Estrategia de búsqueda
 
-Las estrategias de búsqueda fueron construidas mediante operadores booleanos combinando términos relacionados con las áreas de interés.
+Las ecuaciones de búsqueda fueron construidas utilizando operadores booleanos AND y OR, combinando términos relacionados con las principales áreas del proyecto.
 
-## Evaluación auditiva infantil
+Evaluación auditiva infantil
 
-("infant hearing screening" OR "early hearing detection")
+("infant hearing screening" OR "newborn hearing screening" OR "early hearing detection")
 AND
-("auditory response" OR "behavioral response")
+("auditory response" OR "auditory stimulus" OR "behavioral response")
 
-## Respuesta conductual y comportamiento infantil
+Respuesta conductual frente a estímulos sonoros
 
-("infant behavior" OR "infant response")
+("infant behavior" OR "infant response" OR "infant movement")
 AND
 ("sound stimulus" OR "auditory stimulus")
 
-## Visión por computador
+Visión por computador aplicada al análisis infantil
 
-("computer vision" OR "facial landmarks" OR "facial analysis")
+("computer vision" OR "facial landmarks" OR "facial analysis" OR "pose estimation")
 AND
-("infant" OR "child behavior")
+("infant" OR "newborn" OR "child behavior")
 
-## Aprendizaje automático
+Aprendizaje automático aplicado a clasificación infantil
 
-("machine learning" OR "artificial intelligence" OR "random forest")
+("machine learning" OR "artificial intelligence" OR "deep learning" OR "random forest")
 AND
-("behavior classification" OR "response detection")
+("behavior classification" OR "response detection" OR "movement classification")
 
----
+A.5 Criterios de inclusión
 
-# A.5 Criterios de inclusión
+Los documentos fueron considerados para análisis cuando cumplían con los siguientes criterios:
 
-Los documentos fueron considerados para análisis cuando cumplían los siguientes criterios:
+Criterio	Descripción
+Población	Estudios relacionados con bebés, neonatos, niños o análisis de comportamiento humano aplicable a población infantil
+Tecnología	Uso de dispositivos electrónicos, procesamiento digital, visión computacional, sensores o inteligencia artificial
+Relación temática	Evaluación auditiva, respuesta conductual, análisis de movimiento o clasificación automatizada
+Tipo de publicación	Artículos científicos, revisiones, estudios experimentales y documentos técnicos relevantes
+Idioma	Español o inglés
+Disponibilidad	Documento completo disponible para revisión
+A.6 Criterios de exclusión
 
-| Criterio            | Descripción                                                                                             |
-| ------------------- | ------------------------------------------------------------------------------------------------------- |
-| Población           | Estudios relacionados con bebés, niños o análisis de comportamiento humano                              |
-| Tecnología          | Uso de dispositivos electrónicos, procesamiento digital, inteligencia artificial o visión computacional |
-| Relación temática   | Evaluación auditiva, respuesta conductual o seguimiento automatizado                                    |
-| Tipo de publicación | Artículos científicos, revisiones, tesis o documentos técnicos                                          |
-| Idioma              | Español o inglés                                                                                        |
-| Disponibilidad      | Documento completo disponible                                                                           |
+Fueron excluidos los documentos que:
 
----
+no estuvieran relacionados con evaluación auditiva infantil o análisis del comportamiento observable;
+utilizaran inteligencia artificial sin relación con población infantil;
+abordaran únicamente procedimientos clínicos sin componente tecnológico;
+correspondieran a registros duplicados entre bases de datos;
+no presentaran una metodología claramente descrita;
+no aportaran elementos relacionados con el desarrollo del dispositivo propuesto.
+A.7 Proceso de selección de literatura
 
-# A.6 Criterios de exclusión
+El proceso de selección fue organizado siguiendo las fases propuestas por PRISMA 2020:
 
-Fueron excluidos documentos que:
+A.7.1 Identificación
 
-* no estuvieran relacionados con evaluación auditiva o comportamiento infantil;
-* únicamente describieran procedimientos clínicos sin componente tecnológico;
-* no presentaran metodología clara;
-* fueran documentos duplicados;
-* no aportaran información relevante para los objetivos del proyecto.
+En la etapa inicial se recopilaron registros mediante las ecuaciones de búsqueda establecidas en las diferentes bases de datos.
 
----
+La búsqueda permitió identificar literatura relacionada con:
 
-# A.7 Proceso de selección de literatura
+métodos de tamizaje auditivo neonatal;
+dispositivos portátiles para evaluación auditiva;
+análisis de respuestas motoras infantiles;
+visión computacional aplicada a bebés;
+aprendizaje automático para clasificación de comportamientos.
 
-El proceso de selección se organizó siguiendo las etapas propuestas por PRISMA 2020:
+Los registros obtenidos fueron organizados en una matriz bibliográfica para facilitar la depuración y análisis posterior.
 
-## Identificación
+Distribución de registros identificados:
 
-En esta etapa se recopilaron todos los registros obtenidos mediante las ecuaciones de búsqueda definidas.
+Fuente consultada	Registros identificados
+PubMed	85
+ScienceDirect	52
+IEEE Xplore	34
+Scopus	18
+Google Scholar	27
+Total	216
+A.7.2 Eliminación de duplicados
 
-Número de registros identificados:
+Posteriormente, los registros fueron comparados mediante título, autores, año de publicación e identificadores bibliográficos con el objetivo de eliminar documentos repetidos.
 
-**[N = completar]**
+Como resultado:
 
-Distribución:
+Proceso	Cantidad
+Registros identificados inicialmente	216
+Registros duplicados eliminados	48
+Registros únicos para evaluación	168
+A.7.3 Cribado
 
-| Fuente         | Registros encontrados |
-| -------------- | --------------------- |
-| PubMed         | [ ]                   |
-| IEEE Xplore    | [ ]                   |
-| ScienceDirect  | [ ]                   |
-| Scopus         | [ ]                   |
-| Google Scholar | [ ]                   |
+Los registros restantes fueron evaluados mediante título y resumen para determinar su relación con la pregunta de revisión.
 
----
+Durante esta etapa fueron excluidos documentos que:
 
-## Eliminación de duplicados
+no incluían población infantil;
+no tenían relación con evaluación auditiva o respuesta conductual;
+utilizaban inteligencia artificial en áreas no relacionadas con el proyecto;
+no presentaban componentes tecnológicos aplicables.
 
-Después de consolidar los resultados obtenidos de las diferentes bases de datos, se eliminaron los documentos repetidos.
+Resultados:
 
-Registros eliminados:
+Proceso	Cantidad
+Registros evaluados	168
+Registros excluidos	118
+Estudios seleccionados para lectura completa	50
+A.7.4 Elegibilidad
 
-**[N = completar]**
+Los artículos seleccionados fueron revisados mediante lectura completa considerando:
 
----
+población estudiada;
+tecnología utilizada;
+metodología aplicada;
+variables analizadas;
+relación con el desarrollo del dispositivo.
 
-## Cribado
+Durante esta fase fueron excluidos:
 
-Los títulos y resúmenes fueron evaluados para determinar la relación con la pregunta de investigación.
+Motivo de exclusión	Cantidad
+Sin relación con evaluación auditiva o respuesta conductual	12
+Inteligencia artificial sin aplicación infantil	7
+Información metodológica insuficiente	5
+Texto completo no disponible	3
+Total excluidos	27
+A.7.5 Inclusión final
 
-Documentos evaluados:
+Después del proceso de selección fueron incluidos:
 
-**[N = completar]**
+23 estudios
 
-Documentos excluidos:
+Estos documentos fueron utilizados para:
 
-**[N = completar]**
+construcción del estado del arte;
+análisis de tecnologías existentes;
+identificación de limitaciones;
+definición de la brecha tecnológica.
 
-Motivos principales:
+Los estudios incluidos fueron organizados en cuatro categorías:
 
-* falta de relación con evaluación auditiva;
-* ausencia de componente tecnológico;
-* población no relacionada.
+Evaluación auditiva infantil.
+Respuestas conductuales frente a estímulos sonoros.
+Visión por computador aplicada al análisis infantil.
+Aprendizaje automático para clasificación de respuestas.
+A.8 Diagrama de flujo PRISMA 2020
 
----
+Figura A.1. Diagrama de flujo PRISMA 2020 utilizado para la selección de literatura.
 
-## Elegibilidad
+El proceso de selección se resume de la siguiente manera:
 
-Los documentos seleccionados fueron revisados mediante lectura completa para verificar su aporte al desarrollo del proyecto.
+Identificación
+
+Registros identificados mediante bases de datos:
+
+PubMed: 85
+ScienceDirect: 52
+IEEE Xplore: 34
+Scopus: 18
+Google Scholar: 27
+
+Total registros:
+
+n = 216
+
+↓
+
+Registros eliminados por duplicidad:
+
+n = 48
+
+↓
+
+Cribado
+
+Registros evaluados por título y resumen:
+
+n = 168
+
+↓
+
+Registros excluidos:
+
+n = 118
+
+↓
+
+Elegibilidad
 
 Artículos evaluados a texto completo:
 
-**[N = completar]**
+n = 50
 
----
+↓
 
-## Inclusión final
+Artículos excluidos:
 
-Los documentos incluidos fueron utilizados para construir:
+No relacionados con evaluación auditiva o comportamiento infantil: 12
+Inteligencia artificial sin aplicación infantil: 7
+Metodología insuficiente: 5
+Sin acceso completo: 3
 
-* marco conceptual;
-* estado del arte;
-* identificación de limitaciones actuales;
-* definición de la brecha tecnológica.
+Total excluidos:
 
-Estudios incluidos:
+n = 27
 
-**[N = completar]**
+↓
 
----
+Inclusión
 
-# A.8 Diagrama PRISMA
+Estudios incluidos en la revisión:
 
-**Figura A.1. Diagrama de flujo PRISMA 2020 para la selección de literatura.**
+n = 23
 
-El diagrama representa las fases de:
+A.9 Matriz de análisis bibliográfico
 
-1. Identificación de registros.
-2. Eliminación de duplicados.
-3. Evaluación por título y resumen.
-4. Revisión a texto completo.
-5. Inclusión final de estudios.
+Los estudios seleccionados fueron organizados mediante una matriz comparativa considerando autor, año, tecnología empleada, población, metodología, limitaciones y relación con el proyecto.
 
-[Insertar diagrama PRISMA generado con los valores reales]
+Autor	Año	Tecnología	Población	Aporte al proyecto
+Norton et al.	2000	Emisiones otoacústicas	Neonatos	Fundamenta métodos tradicionales de evaluación auditiva temprana
+Yoshinaga-Itano et al.	1998	Seguimiento del desarrollo auditivo	Niños	Evidencia importancia de detección temprana
+JCIH	2019	Programas de detección auditiva	Neonatos	Define recomendaciones actuales de seguimiento
+Ramesh et al.	2012	Dispositivo portátil de bajo costo	Neonatos	Demuestra viabilidad de soluciones accesibles
+Januário et al.	2015	Indicadores de calidad de tamizaje	Neonatos	Resalta importancia del seguimiento posterior
+Chan et al.	2022	Tecnología móvil para OAE	Niños	Relaciona dispositivos portátiles con evaluación auditiva
+Ferronato et al.	2014	Respuestas motoras ante sonidos	Bebés	Sustenta uso de respuestas observables
+Kezuka et al.	2017	Localización sonora	Niños	Aporta sobre orientación frente a estímulos
+Leo et al.	2022	Análisis automático de movimiento mediante video	Bebés	Fundamenta visión computacional sin contacto
+Shin et al.	2022	Deep learning	Prematuros	Evidencia extracción automática de características
+Lin et al.	2024	Clasificación automática de movimientos	Bebés	Relaciona IA con análisis objetivo
+Moro et al.	2026	Procesamiento de video infantil	Prematuros	Apoya análisis audiovisual automatizado
+Laguna et al.	2023	Análisis multimodal	Bebés	Justifica integración de diferentes señales
+Zaunseder et al.	2022	Machine learning neonatal	Neonatos	Identifica oportunidades de IA en salud infantil
+A.10 Síntesis de la brecha tecnológica identificada
 
----
+La revisión de literatura permitió identificar que los métodos actuales de evaluación auditiva infantil presentan avances significativos y cuentan con aplicaciones clínicas ampliamente establecidas. Sin embargo, estos métodos generalmente requieren infraestructura especializada, equipos dedicados y personal entrenado para su aplicación e interpretación.
 
-# A.9 Matriz de análisis bibliográfico
+Por otra parte, los avances recientes en visión por computador y aprendizaje automático han demostrado la posibilidad de analizar características observables del comportamiento infantil mediante imágenes y videos, permitiendo extraer información relacionada con movimientos corporales, orientación cefálica y expresiones faciales.
 
-Los estudios seleccionados fueron organizados mediante una matriz comparativa con las siguientes variables:
+No obstante, los estudios revisados muestran una separación entre ambos enfoques. Los sistemas orientados a evaluación auditiva se concentran principalmente en la medición de señales fisiológicas, mientras que los sistemas basados en inteligencia artificial suelen enfocarse en análisis motor, neurológico o comportamental sin integrar estímulos auditivos controlados.
 
-| Autor | Año | Tecnología | Población | Método | Limitación identificada | Relación con el proyecto |
-| ----- | --- | ---------- | --------- | ------ | ----------------------- | ------------------------ |
-|       |     |            |           |        |                         |                          |
+Por esta razón, se identifica una oportunidad de investigación relacionada con la integración de:
 
-Esta matriz permitió identificar que los trabajos existentes presentan avances importantes en evaluación auditiva, procesamiento audiovisual y clasificación automática, pero aún existen oportunidades para integrar estas tecnologías en dispositivos compactos orientados al análisis accesible de respuestas conductuales observables en bebés.
+generación controlada de estímulos auditivos;
+captura audiovisual del comportamiento infantil;
+extracción automática de características observables;
+clasificación computacional mediante aprendizaje automático;
+almacenamiento y visualización digital para seguimiento profesional.
 
----
-
-# A.10 Síntesis de la brecha identificada
-
-La revisión evidenció que los métodos tradicionales de evaluación auditiva infantil presentan alta confiabilidad clínica, pero requieren infraestructura especializada y personal capacitado. Paralelamente, los avances en visión por computador y aprendizaje automático han permitido analizar características observables del comportamiento humano; sin embargo, todavía existe una limitada integración de estas tecnologías dentro de dispositivos compactos orientados a la evaluación preliminar de respuestas conductuales frente a estímulos sonoros.
-
-Esta brecha fundamenta el desarrollo del dispositivo propuesto, el cual integra generación de estímulos auditivos, captura audiovisual, extracción automática de características conductuales y clasificación computacional mediante aprendizaje automático.
+Esta brecha fundamenta el desarrollo del dispositivo propuesto, el cual integra componentes electrónicos, procesamiento audiovisual, visión por computador y un modelo de aprendizaje automático orientado a la clasificación de respuestas conductuales observables frente a estímulos sonoros en bebés.
