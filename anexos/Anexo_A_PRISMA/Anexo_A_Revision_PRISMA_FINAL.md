@@ -117,7 +117,7 @@ Esta etapa correspondió a una priorización temática automatizada y no a una d
 | Categoría | Descripción |
 |---|---|
 | Incluir | Relación suficiente con el estado del arte o el desarrollo tecnológico |
-| Apoyo | Metodologías transferibles o soporte contextual, sin síntesis individual obligatoria en A.7 |
+| Apoyo | Metodologías transferibles o soporte contextual |
 | Excluir | Sin relación suficiente |
 
 **Estrato Alta (39/39, 100 % revisado)**
@@ -130,12 +130,6 @@ Esta etapa correspondió a una priorización temática automatizada y no a una d
 
 | Rango | Incluir | Apoyo | Excluir | Total |
 |---|---:|---:|---:|---:|
-| Media 1-30 | 10 | 11 | 9 | 30 |
-| Media 31-200 | 70 | 53 | 47 | 170 |
-| Media 201-250 | 26 | 10 | 14 | 50 |
-| Media 251-300 | 15 | 15 | 20 | 50 |
-| Media 301-355 | 11 | 11 | 33 | 55 |
-| Media 356-400 | 8 | 19 | 18 | 45 |
 | **Total Media 1-400** | **140** | **119** | **141** | **400** |
 
 Media 1-400 representa el 21,9 % del estrato Media (400/1824).
