@@ -144,22 +144,16 @@ Media 400 representa el 21,9 % del estrato Media (400/1824).
 
 **439 de 5994 registros (7,3 %) fueron revisados manualmente artículo por artículo**, con decisión y justificación individual registrada para cada uno.
 
-De los 151 registros clasificados como "Incluir" en Alta + Media, se aplicó un segundo filtro de relevancia directa con el problema de investigación para seleccionar un **núcleo de 59 estudios** con síntesis individual en la sección A.7 (29 del primer corte de revisión + 30 nuevos, verificados uno a uno contra la base Zotero/CSV en esta consolidación — ver A.7.5 y A.7.6). Los 92 registros "Incluir" restantes, junto con los 133 clasificados como "Apoyo", se consideran referencias de apoyo potencial para la contextualización del marco teórico del Capítulo 2. Su incorporación específica depende de la pertinencia frente a cada sección desarrollada y no se incluyen como estudios con síntesis individual dentro de este anexo.
+De los 151 registros clasificados como "Incluir" en Alta + Media, se aplicó un segundo filtro de relevancia directa con el problema de investigación para seleccionar un **núcleo de 59 estudios** con síntesis individual en la sección A.7, verificados uno a uno contra la base Zotero/CSV en esta consolidación — ver A.7.5 y A.7.6). Los 92 registros "Incluir" restantes, junto con los 133 clasificados como "Apoyo", se consideran referencias de apoyo potencial para la contextualización del marco teórico del Capítulo 2. Su incorporación específica depende de la pertinencia frente a cada sección desarrollada y no se incluyen como estudios con síntesis individual dentro de este anexo.
 
 ### A.6.2 Análisis exploratorio del estrato de Baja prioridad
 
-Se amplió la muestra de control de sensibilidad del estrato de Baja prioridad (n = 4131) de 50 a **150 registros**, revisados en tres tandas sucesivas (registros 1-50, 51-102 y 103-150; el registro #102 apareció duplicado en el límite de dos tandas y se contabilizó una sola vez).
 
 | Tanda | Relacionados | No relacionados | Total |
 |---|---:|---:|---:|
-| n = 1-50 (muestra original) | 11 | 39 | 50 |
-| n = 51-102 | 15 | 37 | 52 |
-| n = 103-150 | 16 | 32 | 48 |
+
 | **Total n = 150** | **42** | **108** | **150** |
 
-Con una muestra tres veces más grande, la tasa de "relacionados" se mantuvo estable respecto a la muestra inicial (22 % → **28,0 %**), lo que **refuerza** la limitación metodológica ya declarada: el filtro automático de Baja prioridad probablemente deja fuera contenido de valor para el marco teórico. Este hallazgo se declara como **limitación metodológica del filtro automático** y no como estimación censal del estrato de Baja prioridad, dado que corresponde a una muestra exploratoria.
-
-De los 42 registros "relacionados" de esta muestra, únicamente **uno** (registro #70, respuesta auditiva fetal/neonatal mediante MEG y estímulos tonales) se consideró con relevancia teórica suficiente para citarse de forma individual; el resto constituye apoyo de contexto general, sin cambiar el estado del arte central del dispositivo.
 
 ---
 
