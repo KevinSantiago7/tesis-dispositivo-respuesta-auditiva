@@ -151,7 +151,6 @@ De los 151 registros clasificados como "Incluir" en Alta + Media, se aplicó un 
 
 | Tanda | Relacionados | No relacionados | Total |
 |---|---:|---:|---:|
-
 | **Total n = 150** | **42** | **108** | **150** |
 
 
