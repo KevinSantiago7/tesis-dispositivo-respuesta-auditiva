@@ -39,7 +39,6 @@ La revisión se organizó en cuatro líneas:
 | Scopus | Literatura multidisciplinaria |
 | IEEE Xplore | Ingeniería, inteligencia artificial y dispositivos |
 | ScienceDirect | Ciencias biomédicas y tecnología |
-| Google Scholar | Recuperación complementaria |
 
 La gestión, organización y depuración bibliográfica se realizó mediante Zotero.
 
