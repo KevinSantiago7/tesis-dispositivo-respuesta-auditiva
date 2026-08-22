@@ -126,13 +126,13 @@ Esta etapa correspondió a una priorización temática automatizada y no a una d
 |---|---:|---:|---:|---:|
 | Alta | 11 | 14 | 14 | 39 |
 
-**Estrato Media — revisión completa del rango 1-400 (de 1824), sin vacíos**
+**Estrato Media — revisión completa del rango 400 (de 1824)**
 
 | Rango | Incluir | Apoyo | Excluir | Total |
 |---|---:|---:|---:|---:|
-| **Total Media 1-400** | **140** | **119** | **141** | **400** |
+| **Media** | **140** | **119** | **141** | **400** |
 
-Media 1-400 representa el 21,9 % del estrato Media (400/1824).
+Media 400 representa el 21,9 % del estrato Media (400/1824).
 
 **Consolidado Alta + Media (revisión manual completa, artículo por artículo)**
 
