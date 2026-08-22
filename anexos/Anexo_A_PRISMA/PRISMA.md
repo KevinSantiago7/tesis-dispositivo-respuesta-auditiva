@@ -1,6 +1,5 @@
 # ANEXO A. REVISIÓN ESTRUCTURADA DE LITERATURA BAJO LINEAMIENTOS PRISMA 2020
 
-## Versión final consolidada para GitHub
 
 ## A.1 Introducción
 
