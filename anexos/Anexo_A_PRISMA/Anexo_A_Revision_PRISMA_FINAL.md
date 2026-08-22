@@ -1,6 +1,5 @@
 # ANEXO A. REVISIÓN ESTRUCTURADA DE LITERATURA BAJO LINEAMIENTOS PRISMA 2020
 
-*Versión consolidada final — cifras y referencias verificadas artículo por artículo contra el archivo Zotero/CSV original (`base_prisma_sin_duplicados.csv`, 5994 registros)*
 
 ---
 
