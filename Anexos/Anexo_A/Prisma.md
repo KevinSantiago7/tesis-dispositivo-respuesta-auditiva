@@ -292,9 +292,8 @@ El proceso documentado en este anexo —priorización automatizada, verificació
 
 ## A.13 Limitaciones
 
-1. Los 14 artículos del estrato Alta clasificados como "Apoyo" no se revisaron a texto completo; se mantienen como referencias complementarias.
-2. Dos referencias del núcleo carecen de DOI verificable en el registro exportado desde Zotero — Maray, Alsaif y Tanoon (2022) y Marino, Migliorelli, Moccia y Sirocchi (2024) — y requieren localización manual antes de la entrega final.
-3. Del estrato Media (n = 1824) se revisaron los primeros 400 registros (21,9 %); el resto no fue evaluado por alcance del trabajo de grado.
-4. El control de sensibilidad del estrato Baja (n = 150 de 4131, 3,6 %) confirma que el filtro automático probablemente excluye estudios relevantes, pero no constituye una estimación poblacional exacta del estrato completo.
 
-Estas limitaciones no afectan la trazabilidad del núcleo seleccionado: los 59 estudios de la síntesis cualitativa fueron revisados individualmente y verificados frente a la base bibliográfica consolidada (`base_prisma_sin_duplicados.csv`).
+1. Del estrato Media (n = 1824) se revisaron los primeros 400 registros (21,9 %); el resto no fue evaluado por alcance del trabajo de grado.
+2. El control de sensibilidad del estrato Baja (n = 150 de 4131, 3,6 %) confirma que el filtro automático probablemente excluye estudios relevantes, pero no constituye una estimación poblacional exacta del estrato completo.
+
+Estas limitaciones no afectan la trazabilidad del núcleo seleccionado: los 59 estudios de la síntesis cualitativa fueron revisados individualmente y verificados frente a la base bibliográfica consolidada.
