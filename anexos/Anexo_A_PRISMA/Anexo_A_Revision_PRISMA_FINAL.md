@@ -209,11 +209,9 @@ De los 151 registros clasificados como "Incluir" en Alta + Media, se aplicó un 
 | Fullante, John, Miguel, Luistro, Grace, Sison y Chiong (2023). *Evaluation of an Investigational Hearing Screening Device (HeLe) to Demonstrate Acoustic Brainstem Response among Normal-hearing Adults*. Acta Medica Philippina. DOI: 10.47895/amp.v57i9.4366 | Desarrollo y validación experimental de dispositivo de tamizaje auditivo. |
 | Rosario, Jayne, Glorian, Dariel y Grace (2023). *Evaluation of the Design and Development of the HeLe Newborn Hearing Screening Tele-Audiology Systems for the Philippines*. Acta Medica Philippina. DOI: 10.47895/amp.v57i9.5392 | Plataforma de teleaudiología, almacenamiento y gestión de datos de tamizaje. |
 
-*Nota: la distribución de algunos artículos entre A.7.1 y A.7.4 puede ajustarse durante la redacción final del Capítulo 2 según el énfasis metodológico de cada uno.*
 
 ### A.7.5 Ampliación del núcleo — Pose, movimiento y postura infantil (n = 14)
 
-> Candidatos identificados en Media 201-400, verificados uno a uno contra la base Zotero/CSV en esta consolidación.
 
 | Referencia | Aporte |
 |---|---|
@@ -233,8 +231,6 @@ De los 151 registros clasificados como "Incluir" en Alta + Media, se aplicó un 
 | Marino, Migliorelli, Moccia y Sirocchi (2024). *A Monitoring Support System Based on HRNet+DEKR for Neonatal Intensive Care Units*. DOI: no disponible en el registro exportado de Zotero — requiere verificación adicional (ver A.13). | Estimación de pose neonatal (keypoints) para monitoreo en UCIN. |
 
 ### A.7.6 Ampliación del núcleo — Dolor facial, estados fisiológicos y conducta infantil observable (n = 16)
-
-> Candidatos identificados en Media 201-400, verificados uno a uno contra la base Zotero/CSV en esta consolidación.
 
 | Referencia | Aporte |
 |---|---|
