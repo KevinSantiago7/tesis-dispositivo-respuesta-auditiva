@@ -66,16 +66,14 @@ Para cada uno de los cuatro tonos evaluados se identificó el periodo (T) entre 
 
 | Estímulo | Frecuencia nominal (Hz) | Periodo medido T (s) | Frecuencia calculada f = 1/T (Hz) | Diferencia respecto a lo nominal | Observación |
 | --- | --- | --- | --- | --- | --- |
-| Tono 500 Hz | 500 | 0.002 | 500 | 0 | coincide |
-| Tono 1000 Hz | 1000 | 0.001 | 1000 | 0 | coincide |
-| Tono 2000 Hz | 2000 | 0.0005 | 2000 | 0 | coincide / diferencia mínima |
+| Tono 500 Hz | 500 | 0.002 | 413 | 0 | diferencia mínima |
+| Tono 1000 Hz | 1000 | 0.001 | 952 | 0 | diferencia mínima |
+| Tono 2000 Hz | 2000 | 0.0005 | 2000 | 0 | coincide |
 | Tono 4000 Hz | 4000 | 0.00024 | 4166.6 | 166.6 | diferencia mínima |
 
 *Tabla F.1. Comparación entre frecuencia nominal configurada, periodo medido en el osciloscopio y frecuencia real calculada por estímulo.*
 
 Es importante aclarar que las frecuencias calculadas a partir de las capturas del osciloscopio corresponden a una estimación aproximada obtenida mediante la lectura visual de la señal mostrada en pantalla. El cálculo del periodo se realizó identificando manualmente la distancia entre picos consecutivos de la onda y contabilizando las divisiones de tiempo (cuadros) según la escala configurada en el osciloscopio.
-
-Para los tonos de 500 Hz, 1000 Hz y 2000 Hz, la distribución de los picos permitió realizar una estimación con alta correspondencia respecto al valor nominal configurado, debido a que la separación temporal de la onda era claramente observable en la pantalla. Sin embargo, estos valores no representan una medición metrológica de alta precisión, ya que no se empleó un sistema de adquisición digital ni un equipo especializado de análisis de frecuencia.
 
 En consecuencia, los valores obtenidos deben interpretarse como una verificación visual y funcional de la reproducción del estímulo, permitiendo confirmar que el módulo genera señales cercanas a las frecuencias configuradas. Las pequeñas variaciones observadas pueden estar asociadas a la resolución gráfica del osciloscopio, la lectura manual de las divisiones, la ubicación exacta de los picos y las condiciones de captura de la señal.
 
