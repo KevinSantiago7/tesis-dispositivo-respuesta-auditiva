@@ -39,13 +39,16 @@ El procedimiento seguido para cada estímulo tonal fue el siguiente:
 1. Se configuró el dispositivo para reproducir el estímulo a la frecuencia nominal correspondiente (500 Hz, 1000 Hz, 2000 Hz o 4000 Hz, según la Tabla 8, sección 4.2).
 2. Se ubicó el micrófono a una distancia fija de [completar] cm del parlante, replicando la disposición usada durante los ensayos con los bebés.
 3. Se capturó en el osciloscopio la forma de onda resultante, identificando dos picos consecutivos (pico a pico) sobre la traza.
-4. Se midió, a partir de la escala de tiempo del osciloscopio (segundos/división), el intervalo temporal entre esos dos picos consecutivos; este intervalo corresponde al **periodo (T)** de la onda.
-5. Se calculó la frecuencia real reproducida aplicando la relación entre periodo y frecuencia:
+4. Se midió, a partir de la escala de tiempo del osciloscopio (sec/div) Y el numero de divisiones de tiempo (div), el intervalo temporal entre esos dos picos consecutivos; este intervalo corresponde al **periodo (T)** de la onda.
+5. El **periodo (T)** se calculó de la siguiente manera:
+   **T = numero de divisiones de tiempo (div) * escala de tiempo del osciloscopio (sec/div) **
+6. Cabe resaltar que la escala de tiempo del osciloscopio (sec/div) se mantuvo en milisegundos
+7. Se calculó la frecuencia real reproducida aplicando la relación entre periodo y frecuencia:
 
    **f = 1 / T**
 
    donde *f* es la frecuencia en Hz y *T* es el periodo medido en segundos.
-6. La frecuencia calculada se comparó contra la frecuencia nominal configurada en el dispositivo, para determinar el grado de coincidencia.
+8. La frecuencia calculada se comparó contra la frecuencia nominal configurada en el dispositivo, para determinar el grado de coincidencia.
 
 Cada medición fue documentada fotográficamente directamente desde la pantalla del osciloscopio (ver Figuras F.2 a F.5).
 
