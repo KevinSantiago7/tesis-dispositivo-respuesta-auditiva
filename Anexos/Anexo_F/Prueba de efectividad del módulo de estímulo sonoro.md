@@ -41,7 +41,7 @@ El procedimiento seguido para cada estímulo tonal fue el siguiente:
 3. Se capturó en el osciloscopio la forma de onda resultante, identificando dos picos consecutivos (pico a pico) sobre la traza.
 4. Se midió, a partir de la escala de tiempo del osciloscopio (sec/div) Y el numero de divisiones de tiempo (div), el intervalo temporal entre esos dos picos consecutivos; este intervalo corresponde al **periodo (T)** de la onda.
 5. El **periodo (T)** se calculó de la siguiente manera:
-   **T = numero de divisiones de tiempo (div) x escala de tiempo del osciloscopio (sec/div) **
+   **T = numero de divisiones de tiempo (div) x escala de tiempo del osciloscopio (sec/div)**
 6. Cabe resaltar que la escala de tiempo del osciloscopio (sec/div) se mantuvo en milisegundos
 7. Se calculó la frecuencia real reproducida aplicando la relación entre periodo y frecuencia:
 
