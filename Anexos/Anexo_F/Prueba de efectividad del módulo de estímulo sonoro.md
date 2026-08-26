@@ -12,7 +12,7 @@ Esta prueba corresponde a una **verificación técnica de efectividad del hardwa
 | --- | --- | --- |
 | Micrófono | [completar: marca y modelo] | Captación de la señal acústica emitida por el parlante y conversión a señal eléctrica |
 | Osciloscopio | Tektronix 2225 50MHz | Visualización de la forma de onda captada y medición del periodo (T) entre picos consecutivos, a partir del cual se calculó la frecuencia real reproducida |
-| [Sonómetro / medidor de nivel de presión sonora, si se usó] | [completar: marca y modelo] | Medición del nivel de presión sonora (dB) generado por cada estímulo |
+| [Sonómetro / medidor de nivel de presión sonora, si se usó] | Decibel meter (App), Sonómetro (App) | Medición del nivel de presión sonora (dB) generado por cada estímulo |
 | Parlante del dispositivo | [referencia interna del componente, ver sección 4.1] | Elemento evaluado |
 
 > Nota. Si alguno de los instrumentos cuenta con certificado de calibración vigente, adjuntar el documento o su referencia en la sección F.6.
