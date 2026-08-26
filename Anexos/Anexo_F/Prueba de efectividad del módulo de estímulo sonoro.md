@@ -93,11 +93,11 @@ Estas diferencias, al ser [pequeñas / del orden de X Hz], no comprometen la val
 
 > Nota. Completar esta sección si se realizó medición de intensidad con un instrumento adicional (sonómetro). Si la prueba de efectividad se limitó a la verificación de frecuencia mediante osciloscopio, indicarlo aquí y ajustar el objetivo (F.1) y las conclusiones (F.7) en consecuencia.
 
-![Captura del osciloscopio para el estímulo de 1000 Hz](./images/anexo_f_osciloscopio_1000hz.png)
+![Captura del osciloscopio para el estímulo de 1000 Hz](./images/anexo_f_osciloscopio_1000hz.jpeg)
 
 *Figura F.2. Captura del osciloscopio para el estímulo de 1000 Hz, mostrando los picos consecutivos utilizados para calcular el periodo T.*
 
-![Captura del osciloscopio para el estímulo de 4000 Hz](./images/anexo_f_osciloscopio_4000hz.png)
+![Captura del osciloscopio para el estímulo de 4000 Hz](./images/anexo_f_osciloscopio_4000hz.jpeg)
 
 *Figura F.3. Captura del osciloscopio para el estímulo de 4000 Hz, mostrando los picos consecutivos utilizados para calcular el periodo T.*
 
@@ -105,7 +105,7 @@ Estas diferencias, al ser [pequeñas / del orden de X Hz], no comprometen la val
 
 *Figura F.4. Captura del osciloscopio para el estímulo de 500 Hz, mostrando los picos consecutivos utilizados para calcular el periodo T.*
 
-![Captura del osciloscopio para el estímulo de 2000 Hz](./images/anexo_f_osciloscopio_2000hz.png)
+![Captura del osciloscopio para el estímulo de 2000 Hz](./images/anexo_f_osciloscopio_2000hz.jpeg)
 
 *Figura F.5. Captura del osciloscopio para el estímulo de 2000 Hz, mostrando los picos consecutivos utilizados para calcular el periodo T.*
 
