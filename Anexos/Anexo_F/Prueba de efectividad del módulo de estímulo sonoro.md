@@ -119,10 +119,6 @@ Estas diferencias, al ser [pequeñas / del orden de X Hz], no comprometen la val
 
 *Figura F.6. Montaje del micrófono y el osciloscopio utilizado para la medición ([marca/modelo]).*
 
-![Vista general del dispositivo durante la prueba](./images/anexo_f_dispositivo_prueba.png)
-
-*Figura F.7. Vista general del dispositivo tecnológico durante la ejecución de la prueba de efectividad del módulo de estímulo sonoro.*
-
 
 
 ## F.7 Conclusiones de la prueba
