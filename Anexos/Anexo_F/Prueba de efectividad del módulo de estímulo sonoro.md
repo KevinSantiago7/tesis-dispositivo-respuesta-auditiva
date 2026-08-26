@@ -34,15 +34,17 @@ La medición se realizó bajo las siguientes condiciones:
 
 Para verificar si la frecuencia realmente reproducida por el dispositivo correspondía a la frecuencia configurada internamente, se utilizó un micrófono conectado a un osciloscopio: el micrófono captó la señal acústica emitida por el parlante y la convirtió en una señal eléctrica, que el osciloscopio representó gráficamente como una onda en función del tiempo.
 
+Para reducir la variabilidad asociada a la lectura manual de la señal en pantalla, cada estímulo tonal fue medido en varias ocasiones bajo las mismas condiciones experimentales. En cada repetición se identificó el intervalo temporal entre picos consecutivos de la onda y se calculó el periodo correspondiente. Posteriormente, los valores obtenidos fueron promediados para obtener una estimación representativa del periodo de cada frecuencia evaluada.
+
 El procedimiento seguido para cada estímulo tonal fue el siguiente:
 
 1. Se configuró el dispositivo para reproducir el estímulo a la frecuencia nominal correspondiente (500 Hz, 1000 Hz, 2000 Hz o 4000 Hz, según la Tabla 8, sección 4.2).
 2. Se ubicó el micrófono a una distancia fija de [completar] cm del parlante, replicando la disposición usada durante los ensayos con los bebés.
 3. Se capturó en el osciloscopio la forma de onda resultante, identificando dos picos consecutivos (pico a pico) sobre la traza.
 4. Se midió, a partir de la escala de tiempo del osciloscopio (sec/div) Y el numero de divisiones de tiempo (div), el intervalo temporal entre esos dos picos consecutivos; este intervalo corresponde al **periodo (T)** de la onda.
-5. El **periodo (T)** se calculó de la siguiente manera:
+5. El valor promedio del **periodo (T)** fue utilizado posteriormente para calcular la frecuencia reproducida mediante la relación entre frecuencia y periodo:
 
-   **T = numero de divisiones de tiempo (div) x escala de tiempo del osciloscopio (sec/div)**
+   **T = número promedio de divisiones de tiempo (div) x escala de tiempo del osciloscopio (sec/div)**
    
 6. Cabe resaltar que la escala de tiempo del osciloscopio (sec/div) se mantuvo en milisegundos
 7. Se calculó la frecuencia real reproducida aplicando la relación entre periodo y frecuencia:
