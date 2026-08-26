@@ -64,10 +64,10 @@ Para cada uno de los cuatro tonos evaluados se identificó el periodo (T) entre 
 
 | Estímulo | Frecuencia nominal (Hz) | Periodo medido T (s) | Frecuencia calculada f = 1/T (Hz) | Diferencia respecto a lo nominal | Observación |
 | --- | --- | --- | --- | --- | --- |
-| Tono 500 Hz | 500 | [completar] | [completar] | [completar] | [coincide / diferencia mínima] |
-| Tono 1000 Hz | 1000 | [completar] | [completar] | [completar] | [coincide / diferencia mínima] |
-| Tono 2000 Hz | 2000 | [completar] | [completar] | [completar] | [coincide / diferencia mínima] |
-| Tono 4000 Hz | 4000 | [completar] | [completar] | [completar] | [coincide / diferencia mínima] |
+| Tono 500 Hz | 500 | 0.002 | 500 | 0 | coincide |
+| Tono 1000 Hz | 1000 | 0.001 | 1000 | 0 | coincide |
+| Tono 2000 Hz | 2000 | 0.0005 | 2000 | 0 | coincide / diferencia mínima |
+| Tono 4000 Hz | 4000 | 0.00024 | 4166.6 | 166.6 | diferencia mínima |
 
 *Tabla F.1. Comparación entre frecuencia nominal configurada, periodo medido en el osciloscopio y frecuencia real calculada por estímulo.*
 
