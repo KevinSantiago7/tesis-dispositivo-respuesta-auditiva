@@ -101,7 +101,7 @@ Estas diferencias, al ser [pequeñas / del orden de X Hz], no comprometen la val
 
 *Figura F.3. Captura del osciloscopio para el estímulo de 4000 Hz, mostrando los picos consecutivos utilizados para calcular el periodo T.*
 
-![Captura del osciloscopio para el estímulo de 500 Hz](./images/anexo_f_osciloscopio_500hz.png)
+![Captura del osciloscopio para el estímulo de 500 Hz](./images/anexo_f_osciloscopio_500hz.jpeg)
 
 *Figura F.4. Captura del osciloscopio para el estímulo de 500 Hz, mostrando los picos consecutivos utilizados para calcular el periodo T.*
 
