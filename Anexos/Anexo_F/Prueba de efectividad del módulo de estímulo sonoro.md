@@ -86,7 +86,7 @@ Estas pequeñas diferencias son esperables en este tipo de medición manual y pu
 - **Ruido ambiental y reflexiones acústicas:** al no realizarse la prueba en una cámara anecoica, pequeñas reflexiones del sonido en el entorno pueden distorsionar ligeramente la señal captada.
 - **Estabilidad de la fuente de reproducción:** posibles variaciones mínimas en la frecuencia realmente generada por el hardware del dispositivo (parlante y circuito de audio) frente al valor teórico programado.
 
-Estas diferencias, al ser [pequeñas / del orden de X Hz], no comprometen la validez del estímulo como parámetro reproducible del dispositivo: confirman que las frecuencias configuradas se reproducen de forma consistente y cercana al valor nominal, aunque no bajo condiciones de calibración acústica de laboratorio certificado.
+Estas diferencias, al ser pequeñas / del orden de 0 a maximo 200 Hz, no comprometen la validez del estímulo como parámetro reproducible del dispositivo: confirman que las frecuencias configuradas se reproducen de forma consistente y cercana al valor nominal, aunque no bajo condiciones de calibración acústica de laboratorio certificado.
 
 ### F.5.2 Intensidad (nivel de presión sonora)
 
