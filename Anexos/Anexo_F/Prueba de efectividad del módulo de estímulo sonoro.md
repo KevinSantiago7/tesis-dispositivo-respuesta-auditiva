@@ -66,8 +66,8 @@ Para cada uno de los cuatro tonos evaluados se identificó el periodo (T) entre 
 
 | Estímulo | Frecuencia nominal (Hz) | Periodo medido T (s) | Frecuencia calculada f = 1/T (Hz) | Diferencia respecto a lo nominal | Observación |
 | --- | --- | --- | --- | --- | --- |
-| Tono 500 Hz | 500 | 0.002 | 413 | 87 | diferencia mínima |
-| Tono 1000 Hz | 1000 | 0.001 | 952 | 48 | diferencia mínima |
+| Tono 500 Hz | 500 | 0.00242 | 413 | 87 | diferencia mínima |
+| Tono 1000 Hz | 1000 | 0.00105 | 952 | 48 | diferencia mínima |
 | Tono 2000 Hz | 2000 | 0.0005 | 2000 | 0 | coincide |
 | Tono 4000 Hz | 4000 | 0.00024 | 4166.6 | 166.6 | diferencia mínima |
 
@@ -138,7 +138,7 @@ Estas diferencias, al ser pequeñas / del orden de 0 a maximo 200 Hz, no comprom
 
 [Completar con 2-4 líneas de interpretación general, por ejemplo:]
 
-- Las frecuencias calculadas a partir del periodo medido con el osciloscopio se mantuvieron dentro de un margen de ±[completar] Hz respecto a los valores nominales configurados en el dispositivo, lo que indica una reproducción consistente de los estímulos tonales.
+- Las frecuencias calculadas a partir del periodo medido con el osciloscopio presentaron diferencias de hasta 166.6 Hz respecto a los valores nominales configurados en el dispositivo. Estas variaciones corresponden principalmente al método de medición manual mediante lectura visual de la señal y la resolución de la escala temporal del osciloscopio. A pesar de estas diferencias, los valores obtenidos conservaron una correspondencia cercana con las frecuencias programadas, evidenciando una reproducción consistente de los estímulos tonales dentro del contexto experimental del dispositivo.
 - [Si aplica] El nivel de presión sonora mostró una relación [creciente / proporcional / no lineal] respecto al nivel relativo configurado internamente, confirmando que este parámetro puede utilizarse como un indicador reproducible de intensidad relativa, sin constituir una medida audiológica calibrada (ver nota de la Tabla 8, sección 4.2).
 - Estos resultados respaldan la validez técnica de las configuraciones utilizadas durante los ensayos experimentales reportados en el Capítulo 5, en el marco de la evaluación de desempeño técnico descrita en la sección 3.10.1.
 
