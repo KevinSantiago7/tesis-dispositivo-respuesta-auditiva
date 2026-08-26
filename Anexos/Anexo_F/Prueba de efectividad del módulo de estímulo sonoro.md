@@ -11,7 +11,7 @@ Esta prueba corresponde a una **verificación técnica de efectividad del hardwa
 | Instrumento | Marca / Modelo | Función en la prueba |
 | --- | --- | --- |
 | Micrófono | [completar: marca y modelo] | Captación de la señal acústica emitida por el parlante y conversión a señal eléctrica |
-| Osciloscopio | [completar: marca y modelo] | Visualización de la forma de onda captada y medición del periodo (T) entre picos consecutivos, a partir del cual se calculó la frecuencia real reproducida |
+| Osciloscopio | Tektronix 2225 50MHz | Visualización de la forma de onda captada y medición del periodo (T) entre picos consecutivos, a partir del cual se calculó la frecuencia real reproducida |
 | [Sonómetro / medidor de nivel de presión sonora, si se usó] | [completar: marca y modelo] | Medición del nivel de presión sonora (dB) generado por cada estímulo |
 | Parlante del dispositivo | [referencia interna del componente, ver sección 4.1] | Elemento evaluado |
 
