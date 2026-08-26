@@ -54,7 +54,7 @@ El procedimiento seguido para cada estímulo tonal fue el siguiente:
 
 Cada medición fue documentada fotográficamente directamente desde la pantalla del osciloscopio (ver Figuras F.2 a F.5).
 
-> Nota metodológica. Este procedimiento de lectura de periodo pico a pico aplica de forma directa a los tonos sintéticos (500, 1000, 2000 y 4000 Hz), por tratarse de señales periódicas con una única frecuencia dominante. Los sonidos pregrabados (campana, sonajero, oveja, vaca) [completar: indicar si se evaluaron únicamente en nivel de intensidad, o si se les aplicó un análisis de frecuencia dominante distinto, dado que son señales complejas no estrictamente periódicas].
+> Nota metodológica. Este procedimiento de lectura de periodo pico a pico aplica de forma directa a los tonos sintéticos (500, 1000, 2000 y 4000 Hz), por tratarse de señales periódicas con una única frecuencia dominante.
 
 ## F.5 Resultados
 
