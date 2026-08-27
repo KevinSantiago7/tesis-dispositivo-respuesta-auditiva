@@ -28,7 +28,7 @@ Este es el documento real utilizado y firmado por los padres, madres o acudiente
 >
 > **1. Propósito del estudio**
 >
-> El presente proyecto tiene como objetivo desarrollar y evaluar un sistema tecnológico que permita identificar respuestas auditivas en bebés mediante la reproducción de sonidos y el análisis de sus movimientos, con el fin de contribuir a la detección temprana de posibles alteraciones auditivas.
+> El presente proyecto tiene como objetivo desarrollar y evaluar un dispositivo tecnológico que permita identificar respuestas auditivas en bebés mediante la reproducción de sonidos y el análisis de sus movimientos, con el fin de contribuir a la detección temprana de posibles alteraciones auditivas.
 >
 > **2. Procedimiento**
 >
