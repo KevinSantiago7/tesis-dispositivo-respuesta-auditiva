@@ -4,7 +4,7 @@
 
 ## D.1 Alcance del proceso de revisión ética
 
-El presente estudio no contó con un aval formal emitido por un comité de ética institucional. Sin embargo, antes del desarrollo de las pruebas experimentales, el protocolo de adquisición de registros, el procedimiento planteado y el consentimiento informado fueron socializados con el director del proyecto y con la especialista en salud auditiva vinculada al equipo de trabajo, con el propósito de recibir retroalimentación sobre la pertinencia del procedimiento experimental.
+El presente estudio no contó con un aval formal emitido por un comité de ética institucional. Sin embargo, antes del desarrollo de las pruebas experimentales, el protocolo de adquisición de registros, el procedimiento planteado y el consentimiento informado fueron revisados por el director del proyecto y por la especialista en salud auditiva vinculada al equipo de trabajo, con el propósito de recibir retroalimentación sobre la pertinencia del procedimiento experimental.
 
 Esta revisión permitió identificar aspectos relacionados con la interacción con los participantes, el manejo de registros audiovisuales y el alcance del dispositivo desarrollado. No obstante, dicha revisión no corresponde a una aprobación ética institucional independiente, por lo cual esta condición se reconoce como una limitación metodológica del estudio.
 
@@ -86,19 +86,19 @@ Este documento corresponde al consentimiento informado utilizado durante la part
 >
 > **Firma del investigador:** ______________________________
 
-**Nota metodológica:**  El título y la descripción utilizados en el consentimiento informado corresponden al documento empleado durante la fase de vinculación y autorización de participantes. En la versión final de la monografía, el alcance del proyecto se presenta bajo un enfoque de herramienta experimental de apoyo al análisis de respuestas conductuales observables, evitando interpretaciones diagnósticas.
+**Nota metodológica:** El título y la descripción utilizados en el consentimiento informado corresponden al documento empleado durante la fase de vinculación y autorización de participantes. En la versión final de la monografía, el alcance del proyecto se presenta bajo un enfoque de herramienta experimental de apoyo al análisis de respuestas conductuales observables, evitando interpretaciones diagnósticas.
 
-**Nota metodológica:**  El consentimiento informado establece que los registros audiovisuales y datos asociados serán eliminados una vez finalizado el proyecto. Durante el desarrollo del trabajo de grado, la plataforma web fue utilizada exclusivamente como herramienta experimental para almacenamiento temporal, organización de ensayos y revisión del funcionamiento del sistema por parte del especialista vinculado al proceso de validación. Finalizada la etapa experimental y académica del proyecto, la información recolectada será eliminada conforme a las condiciones aceptadas por los representantes legales.
+Adicionalmente, el consentimiento informado establece que los registros audiovisuales y datos asociados serán eliminados una vez finalizado el proyecto. Durante el desarrollo del trabajo de grado, la plataforma web fue utilizada exclusivamente como herramienta experimental para almacenamiento temporal, organización de ensayos y revisión del funcionamiento del sistema por parte del especialista vinculado al proceso de validación. Finalizada la etapa experimental y académica del proyecto, la información recolectada será eliminada conforme a las condiciones aceptadas por los representantes legales.
 
 ---
 
 ## D.3 Formato institucional de autorización — Instituto Colombiano de Bienestar Familiar (ICBF)
 
-Para los participantes vinculados a través de un programa del ICBF (mencionados en la sección 3.6.2), la organización vinculada al programa FAMI solicitó adicionalmente el diligenciamiento de su propio formato de planeación de encuentro, como requisito para autorizar las visitas a los bebés vinculados al programa. Este formato es independiente del consentimiento informado (D.2), el cual también se diligenció con estas familias.
+Para los participantes vinculados mediante espacios asociados al programa FAMI del Instituto Colombiano de Bienestar Familiar (ICBF), la organización encargada del espacio solicitó adicionalmente el diligenciamiento de un formato de planeación de encuentro como requisito administrativo para desarrollar la actividad dentro de dicho contexto. Este documento fue independiente del consentimiento informado (D.2), el cual también fue diligenciado por los padres, madres o representantes legales de los participantes.
 
 El formato institucional documentó, entre otros campos, la fecha y el tipo de encuentro, la unidad de atención, los profesionales interdisciplinares a cargo (Manuela Gaviria Vélez y Kevin Santiago Oliveros Realpe), los procesos que se buscaban fortalecer, los materiales utilizados, la estructura de la sesión (apertura, desarrollo por momentos, cierre) y una evaluación cualitativa del encuentro por parte de la familia. El propio formato indica como soporte la anexión del consentimiento informado y evidencia fotográfica, consistente con el proceso descrito en D.2.
 
-Este documento se incluye como evidencia del proceso de autorización institucional adicional requerido por el ICBF, distinto y complementario al consentimiento firmado directamente por los acudientes.
+Este documento se incluye como evidencia del proceso administrativo adicional solicitado para el desarrollo de la actividad dentro del espacio asociado al programa FAMI-ICBF, siendo complementario al consentimiento firmado directamente por los acudientes.
 
 ---
 
@@ -106,7 +106,7 @@ Este documento se incluye como evidencia del proceso de autorización institucio
 
 | Vía de vinculación | Consentimiento informado (D.2) | Autorización institucional adicional |
 |---|---|---|
-| Participantes vinculados mediante espacios asociados al programa FAMI-ICBF | Sí, firmado por el acudiente | Sí — formato de planeación de encuentro diligenciado por el ICBF |
+| Participantes vinculados mediante espacios asociados al programa FAMI-ICBF | Sí, firmado por el acudiente | Sí — formato de planeación de encuentro solicitado por la organización vinculada al espacio FAMI |
 | Participantes contactados directamente por los investigadores (sesiones domiciliarias) | Sí, firmado por el acudiente | No aplica |
 
-En ambos casos, la participación del bebé estuvo condicionada a la firma previa del consentimiento informado, conforme a lo establecido en la sección 3.6.1 y en la sección 7.4 del documento principal.
+En ambos casos, la participación del bebé estuvo condicionada a la firma previa del consentimiento informado, conforme al procedimiento ético descrito en el capítulo 3 de la presente monografía.
