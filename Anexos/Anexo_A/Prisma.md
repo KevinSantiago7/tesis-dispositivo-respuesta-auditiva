@@ -295,5 +295,6 @@ El proceso documentado en este anexo —priorización automatizada, verificació
 
 1. Del estrato Media (n = 1824) se revisaron los primeros 400 registros (21,9 %); el resto no fue evaluado por alcance del trabajo de grado.
 2. El control de sensibilidad del estrato Baja (n = 150 de 4131, 3,6 %) confirma que el filtro automático probablemente excluye estudios relevantes, pero no constituye una estimación poblacional exacta del estrato completo.
+3. La referencia Corso et al. (2027) fue verificada: corresponde a un artículo de conferencia publicado en Lecture Notes in Computer Science (vol. 16748, Springer), con registro confirmado en Scopus. El año 2027 corresponde al copyright asignado por Springer a la publicación anticipada del volumen, no a un error de la revisión.
 
 Estas limitaciones no afectan la trazabilidad del núcleo seleccionado: los 59 estudios de la síntesis cualitativa fueron revisados individualmente y verificados frente a la base bibliográfica consolidada.
