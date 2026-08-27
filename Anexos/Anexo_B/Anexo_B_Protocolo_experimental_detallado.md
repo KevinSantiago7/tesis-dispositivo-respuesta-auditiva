@@ -4,7 +4,7 @@
 
 ## B.1 Objetivo del protocolo
 
-Este anexo presenta la versión ampliada y operativa del protocolo experimental descrito en la sección 3.6.3, con el nivel de detalle necesario para que el procedimiento pueda replicarse de manera consistente entre sesiones, participantes y ensayos. Complementa la Tabla 7 (condiciones operativas del protocolo experimental) y la Figura 4 (montaje experimental de adquisición) presentadas en el cuerpo del documento.
+Este anexo presenta la versión ampliada y operativa del protocolo experimental descrito en la sección 3.6.3, con el nivel de detalle necesario para que el procedimiento pueda replicarse de manera consistente entre sesiones, participantes y ensayos. Complementa la descripción del protocolo experimental presentada en el capítulo 3 y las figuras asociadas al montaje experimental.
 
 El protocolo aquí descrito no constituye una prueba audiológica ni un procedimiento clínico. Corresponde a la secuencia operativa seguida para presentar estímulos sonoros controlados y registrar audiovisualmente el comportamiento del bebé dentro del alcance experimental del dispositivo.
 
@@ -44,7 +44,7 @@ La asignación específica de "operador principal" y "apoyo" entre Kevin y Manue
 
 ## B.4 Condiciones del entorno
 
-Antes de iniciar cualquier ensayo se verificaron las siguientes condiciones, consistentes con lo descrito en 3.6 y 3.6.4:
+Antes de iniciar cualquier ensayo se verificaron Las condiciones metodológicas descritas en el capítulo 3:
 
 - Iluminación suficiente para permitir la detección y el seguimiento facial.
 - Reducción razonable del ruido ambiental del espacio utilizado.
