@@ -18,7 +18,7 @@ Este es el documento real utilizado y firmado por los padres, madres o acudiente
 
 > **CONSENTIMIENTO INFORMADO PARA PARTICIPACIÓN EN PROYECTO DE INVESTIGACIÓN**
 >
-> **Título del proyecto:** Desarrollo de un dispositivo para la detección temprana de pérdida auditiva en bebés de 0 a 6 meses en Colombia.
+> **Título del proyecto:** Desarrollo de un dispositivo para el apoyo a la detección temprana de pérdida auditiva en bebés de 0 a 6 meses en Colombia.
 >
 > **Investigadores responsables:**
 > Kevin Santiago Oliveros Realpe
