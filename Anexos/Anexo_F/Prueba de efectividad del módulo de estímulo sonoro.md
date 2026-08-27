@@ -149,17 +149,121 @@ Los resultados evidencian que el dispositivo reproduce estímulos consistentes c
 
 # F.8 Evaluación de pertinencia de la información generada por el dispositivo
 
-Esta sección documenta la valoración realizada por profesionales en salud auditiva sobre la utilidad, claridad y pertinencia de la información presentada por la plataforma web desarrollada.
+## F.8.1 Objetivo de la evaluación
 
-La evaluación estuvo orientada a determinar si los datos generados por el dispositivo pueden servir como apoyo para la revisión de los ensayos experimentales.
+Con el propósito de evaluar la utilidad y pertinencia de la información presentada por la plataforma web desarrollada, se realizó una valoración por parte de cinco profesionales en fonoaudiología con experiencia relacionada con el área auditiva.
 
-## F.8.1 Instrumento aplicado a especialistas
+Esta evaluación estuvo orientada a conocer la percepción de los especialistas respecto a la claridad de los datos presentados, la organización de la información del ensayo, la utilidad de los registros audiovisuales y la pertinencia de las variables generadas automáticamente por el sistema como elementos de apoyo para la revisión profesional.
 
-[Agregar aquí el cuestionario aplicado a las cinco fonoaudiólogas]
+La valoración no tuvo como finalidad determinar la capacidad diagnóstica del dispositivo, sino analizar si la información generada por la plataforma resulta comprensible y útil dentro del contexto experimental planteado.
 
-## F.8.2 Resultados de la valoración
+---
 
-[Agregar aquí resultados estadísticos o análisis cualitativo]
+## F.8.2 Participantes de la evaluación
+
+La evaluación fue realizada por cinco profesionales en fonoaudiología, quienes respondieron un instrumento estructurado basado en una escala tipo Likert y preguntas abiertas orientadas a conocer su percepción sobre la información presentada por la plataforma.
+
+Los participantes evaluaron aspectos relacionados con:
+
+- claridad de la información presentada;
+- interpretación de variables relacionadas con movimiento cefálico y cambios faciales;
+- utilidad del registro audiovisual;
+- comprensión de la clasificación preliminar generada por inteligencia artificial;
+- utilidad de la plataforma como herramienta de apoyo para la revisión de ensayos.
+
+---
+
+## F.8.3 Instrumento aplicado
+
+El instrumento estuvo conformado por preguntas cerradas con escala de valoración y preguntas abiertas de retroalimentación.
+
+Las afirmaciones evaluadas utilizaron una escala de acuerdo:
+
+| Valor | Interpretación |
+|---|---|
+| 1 | Totalmente en desacuerdo |
+| 2 | En desacuerdo |
+| 3 | Neutral |
+| 4 | De acuerdo |
+| 5 | Totalmente de acuerdo |
+
+Los principales aspectos evaluados fueron:
+
+| Dimensión | Aspectos evaluados |
+|---|---|
+| Claridad de información | Organización del ensayo, estímulo aplicado, variables de movimiento, indicadores faciales y clasificación preliminar. |
+| Utilidad de información | Uso del video, variables automáticas, nivel de confianza del modelo y comparación entre ensayos. |
+| Interpretación profesional | Diferenciación entre clasificación computacional y valoración especialista. |
+| Presentación de resultados | Claridad general y facilidad de seguimiento de respuestas observables. |
+
+---
+
+## F.8.4 Resultados obtenidos
+
+La valoración realizada por las cinco especialistas mostró una percepción favorable respecto a la claridad y utilidad de la información presentada por la plataforma.
+
+En las afirmaciones relacionadas con claridad de la información:
+
+- El 80 % de las participantes indicó estar totalmente de acuerdo con que la información de cada ensayo se presenta de manera clara y organizada.
+- El 100 % de las participantes estuvo totalmente de acuerdo con que la información relacionada con movimiento cefálico y cambios faciales era comprensible.
+- El 100 % consideró comprensible la clasificación preliminar generada por inteligencia artificial.
+
+Respecto a la utilidad de la información:
+
+- El 100 % de las especialistas manifestó estar de acuerdo o totalmente de acuerdo con que el video del ensayo proporciona información útil para observar la respuesta conductual del bebé.
+- El 100 % indicó que la combinación entre video, variables de movimiento e indicadores faciales facilita la revisión profesional del ensayo.
+- El 100 % consideró útil la información presentada para apoyar la revisión profesional.
+
+Además:
+
+- Todas las participantes consideraron adecuada la cantidad de información presentada para cada ensayo.
+- Todas indicaron que la plataforma facilita el seguimiento de respuestas conductuales observadas en diferentes sesiones.
+
+---
+
+## F.8.5 Principales elementos valorados por los especialistas
+
+Entre los elementos identificados como más útiles se encontraron:
+
+- Video del ensayo.
+- Información del estímulo aplicado.
+- Variables relacionadas con movimiento cefálico.
+- Indicadores relacionados con cambios faciales.
+- Nivel de confianza del modelo.
+- Trazabilidad entre estímulo, registro y variables obtenidas.
+
+Las respuestas abiertas destacaron especialmente la utilidad de conservar la relación:
+
+**estímulo presentado → registro audiovisual → variables extraídas → clasificación preliminar**
+
+como un elemento que facilita la revisión posterior del ensayo.
+
+---
+
+## F.8.6 Recomendaciones identificadas
+
+Las especialistas señalaron oportunidades de mejora relacionadas principalmente con ampliar la contextualización de la información presentada.
+
+Las recomendaciones más frecuentes fueron:
+
+- Incorporar explicaciones más detalladas sobre el significado de algunos indicadores.
+- Presentar con mayor claridad la relación entre dirección del estímulo, respuesta esperada y respuesta detectada.
+- Incluir información sobre condiciones ideales de evaluación, como ruido ambiental, posición del bebé, distancia del dispositivo e iluminación.
+- Mostrar ejemplos de interpretación de las respuestas generadas por el modelo.
+- Diferenciar situaciones en las cuales la respuesta observada puede estar influenciada por factores externos al estímulo auditivo.
+
+Estas recomendaciones fueron consideradas como oportunidades de mejora para futuras versiones del sistema.
+
+---
+
+## F.8.7 Conclusión de la valoración por especialistas
+
+La evaluación realizada permitió evidenciar que la información presentada por la plataforma fue percibida por las especialistas como clara, organizada y potencialmente útil para apoyar la revisión de ensayos experimentales.
+
+Los resultados respaldan la pertinencia del sistema como herramienta tecnológica de apoyo para organizar evidencia audiovisual y variables derivadas del procesamiento computacional, manteniendo la interpretación final bajo criterio profesional.
+
+
+
 
 ---
 
