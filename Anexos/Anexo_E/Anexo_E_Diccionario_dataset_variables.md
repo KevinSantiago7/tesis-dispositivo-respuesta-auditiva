@@ -1,113 +1,177 @@
-# ANEXO E. DICCIONARIO DEL DATASET Y VARIABLES UTILIZADAS EN EL MODELO DE CLASIFICACIÓN
+# ANEXO E. DICCIONARIO DEL DATASET Y VARIABLES DEL MODELO DE CLASIFICACIÓN
 
 ---
 
 ## E.1 Descripción general del conjunto de datos
 
-El conjunto de datos utilizado para el desarrollo del modelo de clasificación fue estructurado a partir de registros organizados jerárquicamente por participante, sesión y ensayo. Cada fila del dataset representa un ensayo experimental individual asociado a un estímulo sonoro específico y a las características extraídas del procesamiento audiovisual del comportamiento observable del bebé.
+El conjunto de datos utilizado durante el desarrollo del modelo de clasificación fue construido a partir de los registros obtenidos durante las sesiones experimentales y de los datos generados como apoyo para la etapa de entrenamiento computacional.
 
-La estructura del dataset permitió conservar la trazabilidad entre la identificación del participante, las condiciones experimentales, las variables derivadas del procesamiento computacional y la clasificación operacional generada por el modelo.
+Cada fila del dataset representa un ensayo experimental individual asociado a un participante, una sesión, un estímulo sonoro y un conjunto de características extraídas mediante el procesamiento audiovisual.
 
-El modelo definitivo implementado corresponde a un clasificador **Random Forest**, entrenado utilizando un conjunto de variables multimodales relacionadas con movimiento cefálico, dinámica del movimiento y características faciales. La configuración final utilizó 23 variables de entrada definidas previamente para el entrenamiento del modelo.
+La estructura del dataset permite conservar la trazabilidad entre:
+
+- identificación del participante,
+- sesión experimental,
+- ensayo realizado,
+- condiciones del estímulo,
+- variables derivadas del procesamiento,
+- clasificación operacional generada por el modelo.
+
+El dataset consolidado contiene variables de diferentes naturalezas: identificación, caracterización del participante, parámetros del estímulo, variables de procesamiento audiovisual, variables de control de calidad y características utilizadas por el modelo de clasificación.
+
+Aunque el conjunto completo contiene múltiples variables asociadas al procesamiento y trazabilidad de los registros, el modelo final Random Forest utiliza únicamente un subconjunto de 23 características seleccionadas como variables de entrada.
 
 ---
 
-## E.2 Estructura general del registro
+# E.2 Estructura general del registro
 
-| Grupo | Variables | Función dentro del dataset |
+Cada registro del dataset se organiza mediante los siguientes grupos de información:
+
+| Grupo | Descripción |
+|---|---|
+| Identificación y trazabilidad | Variables utilizadas para relacionar participante, sesión y ensayo. |
+| Caracterización del participante | Información descriptiva asociada al bebé registrado. |
+| Configuración del estímulo | Parámetros correspondientes al sonido presentado durante el ensayo. |
+| Procesamiento audiovisual | Variables obtenidas mediante análisis del registro de video. |
+| Calidad del registro | Indicadores relacionados con disponibilidad y confiabilidad del procesamiento. |
+| Variables del modelo | Características seleccionadas para el entrenamiento del clasificador. |
+| Variable objetivo | Etiqueta utilizada para la clasificación supervisada. |
+
+---
+
+# E.3 Variables de identificación y trazabilidad
+
+| Variable | Tipo | Descripción |
 |---|---|---|
-| Identificación | `baby_id`, `session_id`, `trial_id` | Permiten conservar la trazabilidad entre participante, sesión y ensayo. |
-| Caracterización | Edad, sexo biológico | Descripción general del participante. |
-| Estímulo | Tipo, frecuencia, duración, lateralidad, nivel relativo | Representan las condiciones bajo las cuales fue realizado el ensayo. |
-| Variables audiovisuales | Características cefálicas y faciales | Representan cuantitativamente la respuesta observable extraída del video. |
-| Variable objetivo | `response_behavior_class` | Etiqueta utilizada para el entrenamiento y evaluación del modelo. |
+| `baby_id` | Categórica | Identificador anonimizado del participante. |
+| `session_id` | Categórica | Identificador de la sesión experimental. |
+| `trial_id` | Categórica | Identificador único del ensayo dentro de una sesión. |
+| `unified_row_id` | Categórica | Identificador interno del registro consolidado. |
+
+Estas variables permiten mantener la relación entre los datos originales, los ensayos realizados y las etapas posteriores de análisis.
 
 ---
 
-# E.3 Variables de entrada del modelo Random Forest
+# E.4 Variables de caracterización del participante
 
-Las variables utilizadas como entrada del modelo fueron agrupadas según la fuente de información de la cual fueron obtenidas.
-
-## E.3.1 Variables de movimiento cefálico
-
-| Código | Variable | Descripción |
+| Variable | Tipo | Descripción |
 |---|---|---|
-| X1 | `baseline_yaw` | Valor inicial de orientación cefálica utilizado como referencia durante el ensayo. |
-| X2 | `mean_delta_yaw` | Promedio del cambio de orientación cefálica respecto a la línea base. |
-| X3 | `median_delta_yaw` | Mediana del cambio de orientación cefálica. |
-| X4 | `std_delta_yaw` | Variabilidad del cambio de orientación cefálica durante el registro. |
-| X5 | `min_delta_yaw` | Valor mínimo del cambio angular registrado. |
-| X6 | `max_delta_yaw` | Valor máximo del cambio angular registrado. |
-| X7 | `range_delta_yaw` | Rango entre el valor máximo y mínimo del desplazamiento angular. |
+| Edad | Numérica | Edad cronológica del participante al momento del registro. |
+| Sexo biológico | Categórica | Característica descriptiva del participante. |
 
-Estas variables representan la dinámica del movimiento cefálico frente al estímulo presentado.
+Estas variables permiten realizar análisis exploratorios relacionados con las características generales de la muestra.
 
 ---
 
-## E.3.2 Variables relacionadas con velocidad del movimiento
+# E.5 Variables asociadas al estímulo experimental
 
-| Código | Variable | Descripción |
+| Variable | Tipo | Descripción |
 |---|---|---|
-| X8 | `mean_velocity` | Velocidad promedio del movimiento cefálico registrado. |
-| X9 | `std_velocity` | Variabilidad de la velocidad durante el ensayo. |
-| X10 | `max_velocity` | Velocidad máxima alcanzada. |
-| X11 | `min_velocity` | Velocidad mínima registrada. |
+| Tipo de estímulo | Categórica | Identifica la naturaleza del estímulo presentado. |
+| Frecuencia | Numérica | Frecuencia del tono utilizado cuando corresponde. |
+| Duración | Numérica | Tiempo de presentación del estímulo. |
+| Lateralidad | Categórica | Lado desde el cual fue presentado el estímulo. |
+| Nivel relativo de salida | Numérica | Parámetro interno de reproducción del estímulo; no corresponde a una medida calibrada en dB SPL. |
 
 ---
 
-## E.3.3 Variables de magnitud y distribución del movimiento
+# E.6 Variables de entrada utilizadas por el modelo Random Forest
 
-| Código | Variable | Descripción |
-|---|---|---|
-| X12 | `peak_abs` | Magnitud máxima absoluta del movimiento registrado. |
-| X13 | `pct_negative` | Proporción de desplazamientos negativos respecto al eje analizado. |
-| X14 | `pct_positive` | Proporción de desplazamientos positivos respecto al eje analizado. |
-| X15 | `abs_mean_yaw` | Promedio absoluto del desplazamiento angular. |
-| X16 | `abs_median_yaw` | Mediana absoluta del desplazamiento angular. |
-| X17 | `movement_energy` | Medida relacionada con la energía del movimiento durante el ensayo. |
-| X18 | `samples` | Número de muestras utilizadas durante el procesamiento del registro. |
+El modelo definitivo utilizó 23 variables de entrada multimodales relacionadas con movimiento cefálico y características faciales.
+
+## E.6.1 Variables de movimiento cefálico
+
+| Variable | Descripción |
+|---|---|
+| `baseline_yaw` | Valor inicial de orientación cefálica utilizado como referencia. |
+| `mean_delta_yaw` | Cambio promedio de orientación cefálica respecto a la línea base. |
+| `median_delta_yaw` | Mediana del cambio de orientación cefálica. |
+| `std_delta_yaw` | Variabilidad del cambio de orientación cefálica. |
+| `min_delta_yaw` | Cambio angular mínimo registrado. |
+| `max_delta_yaw` | Cambio angular máximo registrado. |
+| `range_delta_yaw` | Diferencia entre valores máximos y mínimos del desplazamiento angular. |
+
+## E.6.2 Variables relacionadas con velocidad del movimiento
+
+| Variable | Descripción |
+|---|---|
+| `mean_velocity` | Velocidad promedio del movimiento registrado. |
+| `std_velocity` | Variabilidad de la velocidad del movimiento. |
+| `max_velocity` | Velocidad máxima registrada. |
+| `min_velocity` | Velocidad mínima registrada. |
+
+## E.6.3 Variables de magnitud y distribución del movimiento
+
+| Variable | Descripción |
+|---|---|
+| `peak_abs` | Magnitud máxima absoluta del movimiento. |
+| `pct_negative` | Proporción de desplazamientos negativos. |
+| `pct_positive` | Proporción de desplazamientos positivos. |
+| `abs_mean_yaw` | Promedio absoluto del desplazamiento angular. |
+| `abs_median_yaw` | Mediana absoluta del desplazamiento angular. |
+| `movement_energy` | Medida asociada a la energía del movimiento durante el ensayo. |
+| `samples` | Número de muestras utilizadas durante el procesamiento. |
+
+## E.6.4 Variables de características faciales
+
+| Variable | Descripción |
+|---|---|
+| `facial_score` | Indicador global de variación facial. |
+| `blink_score` | Indicador asociado a cambios de parpadeo. |
+| `eye_score` | Indicador asociado a la región ocular. |
+| `eyebrow_score` | Indicador asociado a la región de cejas. |
+| `mouth_score` | Indicador asociado a la región bucal. |
 
 ---
 
-## E.3.4 Variables de respuesta facial
+# E.7 Variables de calidad audiovisual y procesamiento
 
-| Código | Variable | Descripción |
-|---|---|---|
-| X19 | `facial_score` | Indicador global de variación facial extraída del registro audiovisual. |
-| X20 | `blink_score` | Medida asociada a cambios relacionados con parpadeo. |
-| X21 | `eye_score` | Indicador de variación asociada a la región ocular. |
-| X22 | `eyebrow_score` | Indicador de cambios asociados a la región de cejas. |
-| X23 | `mouth_score` | Indicador de variación asociada a la región bucal. |
+| Variable | Descripción |
+|---|---|
+| `valid_face_frames` | Número de fotogramas con detección facial válida. |
+| `valid_face_ratio` | Proporción de fotogramas con detección facial disponible. |
+| `fps` | Frecuencia de cuadros del registro audiovisual. |
+| `total_frames_reported` | Número total de fotogramas registrados. |
+| `duration_reported_s` | Duración reportada del video. |
+| `reaction_time_s` | Tiempo asociado al cambio conductual identificado durante el procesamiento. |
+
+Estas variables permiten evaluar las condiciones del registro y apoyar los criterios de selección de ensayos.
 
 ---
 
-# E.4 Variable objetivo del modelo
+# E.8 Variables relacionadas con datos simulados
+
+| Variable | Descripción |
+|---|---|
+| `data_origin` | Identifica si el registro corresponde a datos reales o simulados. |
+| `synthetic_source_trial_id` | Relación del registro simulado con el ensayo de referencia utilizado. |
+| `synthetic_method` | Método utilizado para generación del registro simulado. |
+| `synthetic_seed` | Semilla utilizada para reproducibilidad del proceso de generación. |
+
+Los registros simulados fueron utilizados únicamente como apoyo durante la etapa de entrenamiento del modelo y no como sustituto de observaciones reales durante la evaluación experimental final.
+
+---
+
+# E.9 Variable objetivo del modelo
 
 | Variable | Tipo | Codificación |
 |---|---|---|
 | `response_behavior_class` | Binaria | 0 = respuesta no concluyente; 1 = respuesta conductual observable |
 
-La clasificación generada representa una categoría operacional asociada a la evidencia conductual observada durante el ensayo y no corresponde a una determinación clínica independiente de la función auditiva.
+La variable objetivo representa una clasificación operacional basada en la evidencia conductual observable registrada durante el ensayo.
+
+Esta salida computacional corresponde a información complementaria para la revisión del especialista y no constituye un diagnóstico clínico independiente.
 
 ---
 
-# E.5 Configuración del modelo asociado al dataset
+# E.10 Relación entre dataset y modelo de clasificación
 
-| Parámetro | Valor |
-|---|---|
-| Algoritmo | Random Forest Classifier |
-| Número de árboles | 600 |
-| Criterio | Gini |
-| Profundidad máxima | 4 |
-| División mínima | 5 |
-| Mínimo de muestras por hoja | 2 |
-| Máximo de variables evaluadas | √n |
-| Balance de clases | Activado |
+El dataset completo contiene información necesaria para la trazabilidad experimental, control de calidad y análisis posterior. Sin embargo, el modelo Random Forest emplea únicamente las 23 variables definidas en la sección E.6.
 
-Estos parámetros corresponden a la configuración definitiva utilizada en el entrenamiento del modelo.
+Esta separación permite diferenciar entre:
 
----
+- variables necesarias para documentar y gestionar los registros experimentales;
+- variables utilizadas directamente para el aprendizaje automático;
+- variables asociadas a control de calidad y generación de datos simulados.
 
-## Nota metodológica
-
-Las variables descritas en este anexo corresponden exclusivamente a las características utilizadas en el modelo final de clasificación. La selección de estas variables permitió integrar información multimodal proveniente del movimiento cefálico y de indicadores faciales, manteniendo la trazabilidad entre el registro audiovisual original y la clasificación operacional generada por el sistema.
+De esta manera se conserva la transparencia del flujo completo de datos, desde la adquisición audiovisual hasta la generación de la clasificación operacional.
