@@ -1,4 +1,4 @@
-# ANEXO A. REVISIÓN ESTRUCTURADA DE LITERATURA BAJO LINEAMIENTOS PRISMA 2020
+# ANEXO A. REVISIÓN ESTRUCTURADA DE LITERATURA (ADAPTACIÓN DE LOS LINEAMIENTOS PRISMA 2020)
 
 ---
 
@@ -8,7 +8,7 @@ Se realizó una revisión estructurada de literatura con el propósito de fundam
 
 El proceso tomó como referencia las recomendaciones PRISMA 2020 para organizar las etapas de identificación, depuración, priorización y selección documental. Debido al volumen inicial de registros recuperados, se implementó una estrategia de dos fases: priorización automatizada por concordancia temática y verificación manual de los registros con mayor relación con los objetivos del proyecto.
 
-Esta revisión corresponde a una revisión estructurada orientada al desarrollo tecnológico del dispositivo y no a una revisión sistemática clínica con metaanálisis.
+Esta revisión corresponde a una revisión estructurada orientada al desarrollo tecnológico del dispositivo y no a una revisión sistemática clínica con metaanálisis. Cabe aclarar que no se trata de una aplicación estricta de PRISMA 2020: el cribado manual artículo por artículo cubrió el 7,3 % de los registros únicos (439 de 5994), mientras que el resto se filtró mediante priorización temática automatizada sin revisión humana completa, y el cribado no contó con doble revisión independiente entre los dos autores. Estas particularidades se detallan en A.6 y A.13.
 
 ---
 
@@ -120,7 +120,7 @@ Esta etapa correspondió a una priorización temática automatizada y no a una d
 | Media (400 de 1824) | 140 | 119 | 141 | 400 |
 | **Total revisado manualmente** | **151** | **133** | **155** | **439** |
 
-**439 de 5994 registros (7,3 %) fueron revisados manualmente artículo por artículo**, con decisión y justificación individual registrada para cada uno.
+**439 de 5994 registros (7,3 %) fueron revisados manualmente artículo por artículo**, con decisión y justificación individual registrada para cada uno. Este cribado fue realizado dividiendo los registros entre los dos autores (cada uno revisó una parte del total), sin doble revisión independiente ni cálculo de índice de concordancia (ej. Kappa de Cohen). Esta es una limitación declarada del proceso (ver A.13).
 
 De los 151 registros clasificados como "Incluir", se aplicó un segundo filtro de relevancia directa con el problema de investigación para seleccionar un **núcleo de 59 estudios** con síntesis individual en la sección A.7. Los 92 registros "Incluir" restantes, junto con los 133 clasificados como "Apoyo", se consideran referencias de apoyo potencial para la contextualización del marco teórico del Capítulo 2; su incorporación específica depende de la pertinencia frente a cada sección desarrollada y no se incluyen como estudios con síntesis individual en este anexo.
 
