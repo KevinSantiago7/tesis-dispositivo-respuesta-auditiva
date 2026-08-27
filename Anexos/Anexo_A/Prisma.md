@@ -4,7 +4,7 @@
 
 ## A.1 Introducción
 
-Se realizó una revisión estructurada de literatura con el propósito de fundamentar el desarrollo del dispositivo tecnológico propuesto, identificando avances relacionados con evaluación auditiva infantil, respuestas conductuales frente a estímulos sonoros, visión por computador y aprendizaje automático.
+Se realizó una revisión estructurada de literatura con el propósito de`` fundamentar el desarrollo del dispositivo tecnológico propuesto, identificando avances relacionados con evaluación auditiva infantil, respuestas conductuales frente a estímulos sonoros, visión por computador y aprendizaje automático.
 
 El proceso tomó como referencia las recomendaciones PRISMA 2020 para organizar las etapas de identificación, depuración, priorización y selección documental. Debido al volumen inicial de registros recuperados, se implementó una estrategia de dos fases: priorización automatizada por concordancia temática y verificación manual de los registros con mayor relación con los objetivos del proyecto.
 
@@ -45,6 +45,10 @@ La gestión, organización y depuración bibliográfica se realizó mediante Zot
 ---
 
 ## A.4 Estrategia de búsqueda
+
+Las búsquedas bibliográficas fueron realizadas durante el periodo comprendido entre diciembre de 2025 y marzo de 2026, mediante las bases de datos seleccionadas: PubMed, Scopus, IEEE Xplore y ScienceDirect. La estrategia de búsqueda se estructuró a partir de cuatro líneas temáticas relacionadas con los componentes principales del proyecto: evaluación auditiva infantil, respuestas conductuales frente a estímulos sonoros, visión computacional aplicada al análisis infantil y aprendizaje automático para clasificación de patrones observables.
+
+Las ecuaciones de búsqueda fueron diseñadas mediante la combinación de términos relacionados con la población objetivo, la variable de interés y las tecnologías aplicadas, utilizando operadores booleanos AND y OR para ampliar la recuperación de literatura pertinente.
 
 **Audición infantil**
 ```
@@ -258,7 +262,7 @@ Esta integración constituye el aporte tecnológico del dispositivo desarrollado
 
 ---
 
-## A.11 Flujo PRISMA resumido
+## A.11 Flujo de selección documental basado en lineamientos PRISMA 2020
 
 ```
 Registros identificados:        n = 6567
