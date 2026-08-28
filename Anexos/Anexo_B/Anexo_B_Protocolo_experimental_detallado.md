@@ -22,7 +22,7 @@ El protocolo aquí descrito no constituye una prueba audiológica ni un procedim
 | Formatos de consentimiento informado y autorización audiovisual (Anexo D) | Documento físico o digital | Se diligencia y firma antes de iniciar cualquier procedimiento con el bebé. |
 | Formato de caracterización del participante | Registro de código del bebé, sexo biológico, edad cronológica y número de sesión (Tabla 6) | Se completa antes de iniciar los ensayos. |
 
-**Nota:** la distancia entre la cámara/parlante y el bebé no se controló ni se registró de forma fija; varió según las condiciones de cada sesión (espacio disponible, posición del cuidador, comodidad del bebé). Esta variabilidad se declara como parte de las condiciones reales de adquisición y no debe interpretarse como un parámetro estandarizado.
+**Nota:** Debido al carácter exploratorio del dispositivo y a las condiciones reales de adquisición domiciliaria, la distancia entre participante, cámara y fuente sonora no fue considerada una variable experimental controlada, sino una condición contextual registrada durante la adquisición.
 
 ---
 
