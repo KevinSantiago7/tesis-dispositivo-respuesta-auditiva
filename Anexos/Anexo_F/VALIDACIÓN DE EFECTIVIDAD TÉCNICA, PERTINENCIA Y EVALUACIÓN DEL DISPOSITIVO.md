@@ -255,7 +255,7 @@ Los resultados respaldan la pertinencia del sistema como herramienta tecnológic
 
 ---
 
-# F.8 Concordancia entre clasificación del dispositivo y valoración especialista
+# F.8 Concordancia entre clasificación operacional del modelo y valoración especialista de respuesta observable
 
 Durante la validación experimental, la especialista en salud auditiva tuvo acceso a los registros audiovisuales y a la información presentada mediante la plataforma web.
 
