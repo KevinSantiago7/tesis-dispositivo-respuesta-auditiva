@@ -91,7 +91,7 @@ El resultado final se encuentra en una escala entre 0 y 100 puntos.
 | P6 | Padre 6 | 92.5 |
 | P7 | Padre 7 | 77.5 |
 | P8 | Padre 8 | 87.5 |
-| P9 | Profesional especialista | [Completar] |
+| P9 | Profesional especialista | 87.5 |
 
 ---
 
@@ -100,9 +100,9 @@ El resultado final se encuentra en una escala entre 0 y 100 puntos.
 | Métrica | Resultado |
 |---|---|
 | Número de participantes | 9 |
-| Promedio SUS | 81.25 |
-| Mediana | 81.25 |
-| Desviación estándar | 10.69 |
+| Promedio SUS | 81.9 |
+| Mediana | 81.5 |
+| Desviación estándar | 10.2 |
 | Valor mínimo | 62.5 |
 | Valor máximo | 95 |
 
