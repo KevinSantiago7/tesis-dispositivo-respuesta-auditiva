@@ -18,9 +18,9 @@ Esta prueba corresponde a una **verificación técnica del desempeño del hardwa
 
 | Instrumento | Marca / Modelo | Función en la prueba |
 |---|---|---|
-| Micrófono | [Completar referencia si aplica] | Captura de la señal acústica generada por el parlante y conversión a señal eléctrica. |
+| Micrófono | Transductor National / Matsushita (PANASONIC) | Captura de la señal acústica generada por el parlante y conversión a señal eléctrica. |
 | Osciloscopio | Tektronix 2225 50MHz | Visualización de la señal capturada y medición del periodo entre picos consecutivos. |
-| Parlante del dispositivo | [Completar referencia] | Elemento evaluado dentro del módulo de estimulación sonora. |
+| Parlante del dispositivo | parlantes Unitec U-P-420 | Elemento evaluado dentro del módulo de estimulación sonora. |
 
 > Nota. La medición realizada corresponde a una verificación funcional de la señal reproducida. No corresponde a una medición audiológica certificada en dB SPL.
 
@@ -81,7 +81,7 @@ La frecuencia obtenida fue comparada con la frecuencia nominal configurada en el
 
 | Estímulo | Frecuencia nominal (Hz) | Periodo medido T (s) | Frecuencia calculada f = 1/T (Hz) | Diferencia respecto al valor nominal (Hz) |
 |---|---:|---:|---:|---:|
-| Tono 500 Hz | 500 | 0.00242 | 413 | 87 |
+| Tono 500 Hz | 500 | 0.00212 | 471.7 | 28.3 |
 | Tono 1000 Hz | 1000 | 0.00105 | 952 | 48 |
 | Tono 2000 Hz | 2000 | 0.0005 | 2000 | 0 |
 | Tono 4000 Hz | 4000 | 0.00024 | 4166.6 | 166.6 |
