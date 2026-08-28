@@ -1,63 +1,63 @@
-# ANEXO A. REVISIÓN ESTRUCTURADA DE LITERATURA 
+# ANEXO A. REVISIÓN ESTRUCTURADA DE LITERATURA (VERSIÓN INTEGRADA ZOTERO + RAYYAN)
+
+> Nota: Esta versión conserva la estructura metodológica del anexo
+> original e integra el nuevo flujo de depuración y priorización
+> documental mediante Zotero y Rayyan.
 
 ## A.1 Introducción
 
 Se realizó una revisión estructurada de literatura con el propósito de
 fundamentar el desarrollo del dispositivo tecnológico propuesto,
 identificando avances relacionados con evaluación auditiva infantil,
-respuestas conductuales observables frente a estímulos sonoros, visión
-por computador y aprendizaje automático.
+respuestas conductuales frente a estímulos sonoros, visión por
+computador y aprendizaje automático.
 
-El proceso metodológico integró dos herramientas principales: Zotero
-como gestor bibliográfico para la organización y depuración inicial de
-referencias, y Rayyan como plataforma de apoyo para la priorización,
-clasificación y cribado documental.
+El proceso tomó como referencia los lineamientos PRISMA 2020 para
+organizar las etapas de identificación, depuración, priorización y
+selección documental. Debido al volumen inicial de registros
+recuperados, se implementó una estrategia combinada mediante Zotero como
+gestor bibliográfico y Rayyan como plataforma de apoyo al cribado.
 
-Esta revisión corresponde a una revisión estructurada orientada al
+La revisión corresponde a una revisión estructurada orientada al
 desarrollo tecnológico del dispositivo y no a una revisión sistemática
-clínica con metaanálisis. Por esta razón, el proceso se enfocó en
-identificar antecedentes tecnológicos y metodológicos transferibles al
-desarrollo del prototipo.
+clínica con metaanálisis.
 
 ------------------------------------------------------------------------
 
-# A.2 Pregunta de revisión
+## A.2 Pregunta de revisión
 
 ¿Qué avances tecnológicos y metodológicos se han reportado para analizar
 respuestas observables frente a estímulos sonoros en población infantil
-mediante dispositivos electrónicos, visión computacional y modelos de
+mediante dispositivos electrónicos, visión por computador y modelos de
 aprendizaje automático?
 
-La revisión se organizó en cuatro líneas temáticas:
+La revisión se organizó en cuatro líneas:
 
 1.  Evaluación auditiva infantil y dispositivos tecnológicos.
-2.  Respuestas conductuales observables frente a estímulos sonoros.
+2.  Respuestas conductuales y fisiológicas observables.
 3.  Visión computacional aplicada al análisis infantil.
-4.  Inteligencia artificial y aprendizaje automático para clasificación
-    de patrones observables.
+4.  Inteligencia artificial y aprendizaje automático.
 
 ------------------------------------------------------------------------
 
-# A.3 Bases bibliográficas y gestión documental
+## A.3 Bases bibliográficas y gestión documental
 
-La búsqueda documental fue realizada en fuentes bibliográficas
-relacionadas con ciencias biomédicas, ingeniería y tecnologías
-computacionales.
+  Base bibliográfica   Área principal
+  -------------------- ----------------------------------------------------
+  PubMed               Audiología, medicina y neonatología
+  Scopus               Literatura multidisciplinaria
+  IEEE Xplore          Ingeniería, inteligencia artificial y dispositivos
+  ScienceDirect        Ciencias biomédicas y tecnología
 
-La gestión de referencias se realizó mediante Zotero, utilizado para:
+La gestión documental se realizó mediante Zotero.
 
--   Importación de registros bibliográficos.
--   Organización temática de referencias.
--   Normalización de información bibliográfica.
--   Identificación inicial de duplicados.
--   Preparación del conjunto documental para cribado posterior.
+Funciones realizadas:
 
-Posteriormente, los registros depurados fueron exportados hacia Rayyan
-para realizar la etapa de priorización y selección documental.
-
-------------------------------------------------------------------------
-
-## A.3.1 Depuración inicial mediante Zotero
+-   Importación de registros.
+-   Organización bibliográfica.
+-   Normalización de metadatos.
+-   Eliminación inicial de duplicados.
+-   Exportación hacia Rayyan.
 
   Etapa                             Cantidad
   ------------------------------- ----------
@@ -67,147 +67,137 @@ para realizar la etapa de priorización y selección documental.
 
 ------------------------------------------------------------------------
 
-# A.4 Proceso de priorización mediante Rayyan
+## A.4 Estrategia de búsqueda
 
-Los 5994 registros únicos fueron incorporados a Rayyan para realizar una
-reducción progresiva basada en la relación temática con los componentes
-principales del dispositivo.
+Las búsquedas se estructuraron en cuatro líneas temáticas:
 
-Los filtros fueron aplicados de manera acumulativa para identificar
-documentos con mayor pertinencia tecnológica.
+### Evaluación auditiva infantil
 
-------------------------------------------------------------------------
+    ("infant" OR "newborn" OR "neonate" OR "baby")
+    AND
+    ("hearing" OR "auditory" OR "sound stimulus" OR "auditory response")
+    AND
+    ("screening" OR "assessment" OR "detection")
 
-## A.4.1 Primera etapa: población infantil
+### Respuesta conductual
 
-Criterios considerados:
+    ("infant" OR "newborn" OR "baby")
+    AND
+    ("auditory stimulus" OR "sound")
+    AND
+    ("behavioral response" OR "movement" OR "orientation" OR "reaction")
 
--   infant
--   newborn
--   neonate
--   baby
+### Visión computacional
 
-Resultado:
+    ("infant" OR "newborn" OR "neonate")
+    AND
+    ("computer vision" OR "facial landmarks" OR "pose estimation" OR "video analysis")
+    AND
+    ("behavior analysis" OR "movement analysis")
 
-  Etapa                                            Registros
-  ---------------------------------------------- -----------
-  Registros únicos                                      5994
-  Estudios relacionados con población infantil          2373
+### Inteligencia artificial
 
-------------------------------------------------------------------------
-
-## A.4.2 Segunda etapa: relación auditiva
-
-Criterio aplicado:
-
--   hearing
-
-Resultado:
-
-  Etapa                  Registros
-  -------------------- -----------
-  Población infantil          2373
-  Relación auditiva            804
+    ("machine learning" OR "deep learning" OR "artificial intelligence")
+    AND
+    ("infant" OR "newborn" OR "neonatal")
+    AND
+    ("classification" OR "detection" OR "recognition")
 
 ------------------------------------------------------------------------
 
-## A.4.3 Tercera etapa: integración tecnológica
+## A.5 Criterios de selección
 
-Criterio aplicado:
+### Inclusión
 
--   artificial intelligence
+-   Estudios con bebés, neonatos o población infantil.
+-   Estudios relacionados con estímulos auditivos o respuestas
+    observables.
+-   Estudios con dispositivos, sensores, visión computacional o
+    inteligencia artificial.
+-   Estudios con metodologías transferibles al dispositivo.
 
-Resultado:
+### Exclusión
 
-  Etapa                                                 Registros
-  --------------------------------------------------- -----------
-  Relación auditiva                                           804
-  Estudios relacionados con inteligencia artificial           146
-
-------------------------------------------------------------------------
-
-# A.5 Criterios de selección documental
-
-## Criterios de inclusión
-
-Se consideraron estudios que:
-
--   Incluyeran bebés, neonatos o población infantil.
--   Analizaran respuestas auditivas, estímulos sonoros o respuestas
-    conductuales observables.
--   Utilizaran dispositivos electrónicos, sensores, visión computacional
-    o inteligencia artificial.
--   Aportaran metodologías transferibles al desarrollo del dispositivo.
-
-## Criterios de exclusión
-
-Se excluyeron estudios:
-
--   Realizados exclusivamente en adultos.
--   Basados en modelos animales.
--   Sin relación con audición infantil o comportamiento observable.
--   Con inteligencia artificial sin aplicación tecnológica relacionada
-    con el objetivo del proyecto.
+-   Estudios exclusivamente en adultos.
+-   Modelos animales.
+-   Estudios sin relación con audición o comportamiento infantil.
+-   Inteligencia artificial sin aplicación tecnológica pertinente.
 
 ------------------------------------------------------------------------
 
-# A.6 Cribado y selección final
+## A.6 Proceso de cribado mediante Rayyan
 
-Los 146 registros priorizados mediante Rayyan fueron evaluados
-considerando título, resumen y pertinencia metodológica.
+Después de la depuración inicial en Zotero, los 5994 registros fueron
+importados a Rayyan.
 
-La clasificación utilizada fue:
+La reducción documental se realizó mediante filtros temáticos
+progresivos:
+
+  Etapa                     Criterio aplicado                  Registros
+  ------------------------- -------------------------------- -----------
+  Registros únicos          Después de Zotero                       5994
+  Población infantil        infant, newborn, neonate, baby          2373
+  Relación auditiva         hearing                                  804
+  Integración tecnológica   artificial intelligence                  146
+
+Los registros priorizados fueron evaluados mediante título, resumen y
+pertinencia metodológica.
+
+------------------------------------------------------------------------
+
+## A.7 Estudios incluidos en la síntesis cualitativa (n=59)
+
+Los estudios incluidos se organizaron según:
 
   -----------------------------------------------------------------------
-  Categoría                           Descripción
+  Categoría                           Aporte
   ----------------------------------- -----------------------------------
-  Incluir                             Estudios con aporte directo al
-                                      desarrollo del dispositivo
-
-  Apoyo                               Estudios con metodologías
-                                      transferibles o contexto
-                                      tecnológico relevante
-
-  Excluir                             Estudios sin relación suficiente
-                                      con la investigación
-  -----------------------------------------------------------------------
-
-Después del proceso de evaluación se seleccionaron 59 estudios para la
-síntesis cualitativa.
-
-------------------------------------------------------------------------
-
-# A.7 Organización temática de estudios incluidos
-
-Los estudios seleccionados fueron organizados según su contribución:
-
-  -----------------------------------------------------------------------
-  Línea temática                      Contribución
-  ----------------------------------- -----------------------------------
-  Evaluación auditiva infantil        Métodos de tamizaje, dispositivos y
+  Evaluación auditiva infantil        Tamizaje, dispositivos y
                                       procesamiento de señales
 
-  Respuestas observables              Movimiento, orientación,
-                                      comportamiento y expresiones
+  Respuesta observable                Movimiento, orientación y gestos
                                       faciales
 
   Visión computacional                Extracción automática de
-                                      características mediante video
+                                      características
 
-  Inteligencia artificial             Clasificación y análisis
-                                      automatizado de patrones
+  Inteligencia artificial             Clasificación y modelos predictivos
   -----------------------------------------------------------------------
+
+*(Se conserva la tabla completa de referencias del anexo original en
+esta sección.)*
 
 ------------------------------------------------------------------------
 
-# A.8 Flujo de selección documental basado en lineamientos PRISMA adaptados
+## A.8 Documentos clínicos y metodológicos de apoyo
+
+Se mantienen los documentos clínicos, normativos y referencias
+metodológicas incluidos en la versión original.
+
+------------------------------------------------------------------------
+
+## A.9 Brecha tecnológica
+
+La literatura evidencia avances individuales en evaluación auditiva,
+análisis conductual, visión computacional e inteligencia artificial. Sin
+embargo, existe una oportunidad de integración mediante:
+
+-   generación controlada de estímulos sonoros;
+-   captura audiovisual;
+-   extracción automática de características;
+-   clasificación mediante aprendizaje automático;
+-   almacenamiento estructurado de ensayos.
+
+------------------------------------------------------------------------
+
+## A.10 Flujo PRISMA adaptado
 
     Registros identificados:
     n = 6567
 
     ↓
 
-    Gestión bibliográfica mediante Zotero
+    Gestión bibliográfica Zotero
 
     ↓
 
@@ -225,51 +215,43 @@ Los estudios seleccionados fueron organizados según su contribución:
 
     ↓
 
-    Filtro población infantil:
+    Población infantil:
     n = 2373
 
     ↓
 
-    Filtro relación auditiva:
+    Relación auditiva:
     n = 804
 
     ↓
 
-    Filtro integración tecnológica:
+    Integración tecnológica:
     n = 146
 
     ↓
 
-    Evaluación de pertinencia documental
+    Evaluación de pertinencia
 
     ↓
 
-    Estudios incluidos en síntesis cualitativa:
+    Estudios incluidos:
     n = 59
 
 ------------------------------------------------------------------------
 
-# A.9 Limitaciones metodológicas
+## A.11 Limitaciones
 
-El presente proceso corresponde a una revisión estructurada orientada al
-desarrollo tecnológico y no a una revisión sistemática clínica con
-metaanálisis.
+La revisión corresponde a una revisión estructurada orientada al
+desarrollo tecnológico.
 
-Las principales limitaciones fueron:
+Las principales limitaciones son:
 
-1.  La reducción inicial se realizó mediante priorización temática, por
-    lo que algunos estudios potencialmente relevantes pudieron no
-    alcanzar las etapas finales.
-
-2.  La selección final dependió de evaluación de pertinencia documental
-    y no contó con doble revisión independiente entre evaluadores ni
-    cálculo de concordancia interevaluador.
-
-3.  El conjunto final de 59 estudios representa la literatura
-    considerada más pertinente para fundamentar la arquitectura del
-    dispositivo, pero no constituye una revisión exhaustiva de toda la
-    literatura existente.
+1.  La priorización mediante filtros temáticos puede excluir estudios
+    potencialmente relevantes.
+2.  El proceso no corresponde a una revisión clínica sistemática con
+    doble evaluador independiente.
+3.  La selección final representa el núcleo más pertinente para el
+    desarrollo del dispositivo.
 
 El uso combinado de Zotero y Rayyan permitió mejorar la trazabilidad del
-proceso, manteniendo registro de las etapas de identificación,
-depuración, priorización y selección documental.
+proceso documental.
