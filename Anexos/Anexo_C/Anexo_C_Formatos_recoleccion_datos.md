@@ -55,7 +55,7 @@ Campos generados y almacenados automáticamente por el sistema al finalizar cada
 
 ## C.5 Estructura general del registro por ensayo (dataset consolidado)
 
-Una vez procesado el video, cada ensayo se consolida como una fila del conjunto de datos, organizada en los siguientes grupos de variables (Tabla 9, sección 3.6.5):
+Una vez procesado el video, cada ensayo se consolida como una fila del conjunto de datos, organizada en los siguientes grupos de variables
 
 | Grupo | Variables representativas | Finalidad |
 |---|---|---|
