@@ -120,7 +120,7 @@ Se excluyeron los estudios que:
 Después de la depuración inicial en Zotero, los 5994 registros únicos fueron incorporados a Rayyan y sometidos a una reducción documental mediante **filtros acumulativos** asociados a los componentes principales del dispositivo.
 
 ### Primera etapa — población objetivo
-Criterios: `infant`, `newborn`, `neonate`, `baby`
+Criterios: `infant`, `newborn`, `neonate`, `baby`, `child`, `children`, `pediatric`, `paediatric`, `toddler`, `preterm`, `premature`, `neonatal`
 
 | Etapa | Registros |
 |---|---:|
@@ -128,7 +128,7 @@ Criterios: `infant`, `newborn`, `neonate`, `baby`
 | Población infantil | 2373 |
 
 ### Segunda etapa — relación auditiva
-Criterio: `hearing`
+Criterio: `hearing`, `auditory`, `deaf`, `deafness`, `hearing loss`, `hearing impairment`, `cochlear`, `otoacoustic`, `audiometry`, `audiological`, `sound stimulus`, `acoustic stimulus`
 
 | Etapa | Registros |
 |---|---:|
@@ -136,7 +136,7 @@ Criterio: `hearing`
 | Relación auditiva | 804 |
 
 ### Tercera etapa — integración tecnológica
-Criterio: `artificial intelligence`
+Criterio: `artificial intelligence`, `machine learning`, `deep learning`, `neural network`, `computer vision`, `pose estimation`, `classification algorithm`, `automated detection`, `predictive model`, `data-driven`, `algorithm`
 
 | Etapa | Registros |
 |---|---:|
