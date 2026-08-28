@@ -16,13 +16,15 @@ Esta prueba corresponde a una **verificación técnica del desempeño del hardwa
 
 # F.2 Instrumentación utilizada
 
+Para la verificación de la frecuencia del estímulo sonoro se utilizó un osciloscopio, empleado para capturar la señal de audio reproducida por el parlante del dispositivo y determinar su frecuencia dominante a partir del periodo de la señal registrada. La medición se realizó ubicando el sensor a una distancia aproximada de 30 a 50 cm del parlante, replicando la disposición utilizada durante los ensayos experimentales con los bebés. No se realizó una medición cuantitativa del nivel de presión sonora (dB SPL), dado que no se contó con un sonómetro calibrado disponible; las pruebas exploratorias realizadas con instrumentación no calibrada para este propósito arrojaron valores poco consistentes, por lo que se optó por excluir esta medición del análisis (ver sección 3.10.1).
+
 | Instrumento | Marca / Modelo | Función en la prueba |
 |---|---|---|
 | Micrófono | Transductor National / Matsushita (PANASONIC) | Captura de la señal acústica generada por el parlante y conversión a señal eléctrica. |
 | Osciloscopio | Tektronix 2225 50MHz | Visualización de la señal capturada y medición del periodo entre picos consecutivos. |
 | Parlante del dispositivo | parlantes Unitec U-P-420 | Elemento evaluado dentro del módulo de estimulación sonora. |
 
-> Nota. La medición realizada corresponde a una verificación funcional de la señal reproducida. No corresponde a una medición audiológica certificada en dB SPL.
+
 
 ---
 
@@ -102,22 +104,8 @@ Los resultados permiten verificar que el módulo genera señales cercanas a las 
 
 ---
 
-## F.5.2 Nivel relativo de salida
 
-El dispositivo utiliza un parámetro interno de nivel relativo de salida para configurar la amplitud de reproducción del estímulo.
-
-Este parámetro corresponde a una configuración interna del sistema y no representa un nivel de presión sonora calibrado.
-
-| Estímulo | Nivel relativo configurado |
-|---|---|
-| Tonos sintéticos | 0.3 / 0.5 / 0.7 |
-| Sonidos naturales | 0.5 |
-
-La intensidad relativa fue utilizada como parámetro reproducible entre ensayos experimentales, sin interpretarse como una medición audiológica del nivel sonoro recibido por el participante.
-
----
-
-# F.6 Evidencia fotográfica
+# F.5 Evidencia fotográfica
 
 ![Captura del osciloscopio para 500 Hz](./images/anexo_f_osciloscopio_500hz.jpeg)
 
@@ -137,7 +125,7 @@ La intensidad relativa fue utilizada como parámetro reproducible entre ensayos 
 
 ---
 
-# F.7 Conclusiones de la validación técnica
+# F.6 Conclusiones de la validación técnica
 
 La evaluación realizada permitió verificar el funcionamiento del módulo de estímulo sonoro mediante la comparación entre las frecuencias configuradas y las frecuencias calculadas a partir del periodo medido en el osciloscopio.
 
@@ -147,9 +135,9 @@ Los resultados evidencian que el dispositivo reproduce estímulos consistentes c
 
 ---
 
-# F.8 Evaluación de pertinencia de la información generada por el dispositivo
+# F.7 Evaluación de pertinencia de la información generada por el dispositivo
 
-## F.8.1 Objetivo de la evaluación
+## F.7.1 Objetivo de la evaluación
 
 Con el propósito de evaluar la utilidad y pertinencia de la información presentada por la plataforma web desarrollada, se realizó una valoración por parte de cinco profesionales en fonoaudiología con experiencia relacionada con el área auditiva.
 
@@ -159,7 +147,7 @@ La valoración no tuvo como finalidad determinar la capacidad diagnóstica del d
 
 ---
 
-## F.8.2 Participantes de la evaluación
+## F.7.2 Participantes de la evaluación
 
 La evaluación fue realizada por cinco profesionales en fonoaudiología, quienes respondieron un instrumento estructurado basado en una escala tipo Likert y preguntas abiertas orientadas a conocer su percepción sobre la información presentada por la plataforma.
 
@@ -173,7 +161,7 @@ Los participantes evaluaron aspectos relacionados con:
 
 ---
 
-## F.8.3 Instrumento aplicado
+## F.7.3 Instrumento aplicado
 
 El instrumento estuvo conformado por preguntas cerradas con escala de valoración y preguntas abiertas de retroalimentación.
 
@@ -221,7 +209,7 @@ Además:
 
 ---
 
-## F.8.5 Principales elementos valorados por los especialistas
+## F.7.5 Principales elementos valorados por los especialistas
 
 Entre los elementos identificados como más útiles se encontraron:
 
@@ -240,7 +228,7 @@ como un elemento que facilita la revisión posterior del ensayo.
 
 ---
 
-## F.8.6 Recomendaciones identificadas
+## F.7.6 Recomendaciones identificadas
 
 Las especialistas señalaron oportunidades de mejora relacionadas principalmente con ampliar la contextualización de la información presentada.
 
@@ -256,7 +244,7 @@ Estas recomendaciones fueron consideradas como oportunidades de mejora para futu
 
 ---
 
-## F.8.7 Conclusión de la valoración por especialistas
+## F.7.7 Conclusión de la valoración por especialistas
 
 La evaluación realizada permitió evidenciar que la información presentada por la plataforma fue percibida por las especialistas como clara, organizada y potencialmente útil para apoyar la revisión de ensayos experimentales.
 
@@ -267,7 +255,7 @@ Los resultados respaldan la pertinencia del sistema como herramienta tecnológic
 
 ---
 
-# F.9 Concordancia entre clasificación del dispositivo y valoración especialista
+# F.8 Concordancia entre clasificación del dispositivo y valoración especialista
 
 Durante la validación experimental, la especialista en salud auditiva tuvo acceso a los registros audiovisuales y a la información presentada mediante la plataforma web.
 
