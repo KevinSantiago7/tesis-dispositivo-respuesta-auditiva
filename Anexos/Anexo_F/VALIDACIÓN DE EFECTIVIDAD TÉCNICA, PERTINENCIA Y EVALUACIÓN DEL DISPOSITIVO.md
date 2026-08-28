@@ -261,12 +261,12 @@ Durante la validación experimental, la especialista en salud auditiva tuvo acce
 
 La valoración realizada por la especialista fue comparada con la clasificación operacional generada por el modelo computacional.
 
-| Clasificación del dispositivo | Valoración especialista  | | Cantidad |
-|---|---|---|---|
-| Respuesta conductual observable |Reaccionó | 23| |
-| Respuesta conductual observable | No reaccionó|4 | |
-| Respuesta no concluyente |Reaccionó | 11| |
-| Respuesta no concluyente |No reaccionó | 15| |
+| Clasificación del dispositivo | Valoración especialista  | Cantidad |
+|---|---|---|
+| Respuesta conductual observable |Reaccionó | 23| 
+| Respuesta conductual observable | No reaccionó|4 | 
+| Respuesta no concluyente |Reaccionó | 11| 
+| Respuesta no concluyente |No reaccionó | 15| 
 
 Los resultados de concordancia permitieron analizar el nivel de correspondencia entre la salida computacional y la interpretación profesional de los registros.
 
