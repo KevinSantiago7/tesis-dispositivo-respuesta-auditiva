@@ -39,7 +39,7 @@ Las condiciones generales del montaje fueron:
 - Señales evaluadas: tonos sintéticos de 500 Hz, 1000 Hz, 2000 Hz y 4000 Hz.
 - Registro de la señal: visualización de la forma de onda en el osciloscopio.
 
-![Montaje experimental de la prueba de efectividad](./images/anexo_f_montaje.png)
+![Montaje experimental de la prueba de efectividad](./images/anexo_f_montaje.jpeg)
 
 *Figura F.1. Montaje utilizado para la verificación técnica del módulo de estímulo sonoro.*
 
