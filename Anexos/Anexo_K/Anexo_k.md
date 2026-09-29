@@ -1,9 +1,8 @@
-
 # ANEXO K. MARCO TEÓRICO COMPLEMENTARIO Y AMPLIACIÓN DEL ESTADO DEL ARTE
 
-Este anexo presenta la ampliación de los fundamentos conceptuales y tecnológicos relacionados con el desarrollo del dispositivo experimental. La información incluida corresponde a contenidos complementarios que, debido a su nivel de detalle, fueron trasladados desde el Capítulo 2 con el propósito de mantener una estructura más sintetizada del documento principal.
+Este anexo presenta la ampliación de los fundamentos conceptuales y tecnológicos relacionados con el desarrollo del dispositivo experimental. Los contenidos incluidos corresponden a información complementaria trasladada desde el Capítulo 2 con el propósito de mantener una estructura más sintetizada del documento principal.
 
-El contenido de este anexo permite profundizar en los fundamentos de evaluación auditiva infantil, análisis de respuestas conductuales, visión por computador, aprendizaje automático y tecnologías digitales aplicadas a sistemas de apoyo en salud.
+El anexo profundiza en los fundamentos de evaluación auditiva infantil, respuestas conductuales frente a estímulos sonoros, tecnologías computacionales aplicadas al análisis del comportamiento infantil, aprendizaje automático, plataformas digitales y antecedentes tecnológicos relacionados con la propuesta desarrollada.
 
 ---
 
@@ -11,35 +10,43 @@ El contenido de este anexo permite profundizar en los fundamentos de evaluación
 
 ## K.1.1 Emisiones otoacústicas (OAE)
 
-Las emisiones otoacústicas corresponden a respuestas acústicas generadas principalmente por la actividad de las células ciliadas externas de la cóclea. Estas respuestas pueden registrarse mediante una sonda ubicada en el canal auditivo externo, permitiendo obtener información objetiva relacionada con el funcionamiento del sistema auditivo sin requerir una respuesta activa por parte del bebé [15], [19], [20].
+Las emisiones otoacústicas corresponden a respuestas acústicas generadas principalmente por la actividad de las células ciliadas externas de la cóclea. Estas señales pueden ser registradas mediante una sonda ubicada en el canal auditivo externo, permitiendo obtener información objetiva relacionada con el funcionamiento del sistema auditivo sin requerir una respuesta activa del bebé [15], [19], [20].
 
-Debido a su carácter no invasivo, rapidez de aplicación y facilidad de adquisición, las emisiones otoacústicas son ampliamente utilizadas dentro de programas de detección auditiva temprana. Su implementación permite identificar bebés que pueden requerir procesos posteriores de evaluación audiológica.
+Su aplicación ha adquirido relevancia dentro de los programas de detección auditiva temprana debido a características como su naturaleza no invasiva, rapidez de adquisición y posibilidad de implementación durante los primeros meses de vida.
 
-Sin embargo, la calidad de los resultados puede verse afectada por factores asociados a las condiciones de adquisición, incluyendo ruido ambiental, movimiento del bebé, características del oído medio y adecuada colocación de la sonda. Por esta razón, requieren condiciones apropiadas de aplicación e interpretación profesional [19], [20].
+Sin embargo, la obtención de resultados adecuados depende de condiciones apropiadas de adquisición. Factores como ruido ambiental, movimiento del bebé, condiciones del oído medio y ubicación correcta de la sonda pueden afectar la calidad del registro [19], [20].
 
-Diversos desarrollos tecnológicos han buscado aumentar la disponibilidad de esta metodología mediante sistemas portátiles, integración con dispositivos móviles y componentes comerciales de menor costo. Estas propuestas buscan reducir barreras relacionadas con infraestructura y acceso a equipos especializados [13]–[15].
+Debido a estas limitaciones, diferentes investigaciones han explorado alternativas orientadas a aumentar la accesibilidad de esta tecnología mediante dispositivos portátiles, integración con teléfonos inteligentes y componentes comerciales de menor costo [13]–[15].
 
 ---
 
 ## K.1.2 Potenciales evocados auditivos del tronco encefálico (ABR)
 
-Los potenciales evocados auditivos del tronco encefálico (ABR) permiten registrar la actividad eléctrica generada en diferentes etapas de la vía auditiva como respuesta a estímulos sonoros. Debido a que no dependen de una respuesta voluntaria del bebé, constituyen una herramienta importante dentro de la evaluación auditiva objetiva durante los primeros meses de vida [7], [20], [21].
+Los potenciales evocados auditivos del tronco encefálico permiten registrar la actividad eléctrica generada en la vía auditiva como respuesta a estímulos sonoros. Debido a que no requieren una respuesta voluntaria del bebé, constituyen una herramienta objetiva ampliamente utilizada en evaluación auditiva temprana [7], [20], [21].
 
-A diferencia de las emisiones otoacústicas, los ABR requieren generalmente la utilización de electrodos y equipos especializados para adquirir señales eléctricas asociadas con la respuesta auditiva. Además, las condiciones de adquisición deben controlarse para reducir interferencias ocasionadas por movimiento o actividad muscular.
+A diferencia de las emisiones otoacústicas, los ABR requieren generalmente la colocación de electrodos y equipos especializados para adquirir las señales eléctricas generadas durante la estimulación.
 
-Investigaciones recientes han explorado alternativas orientadas a automatizar el procesamiento de estas señales y desarrollar sistemas más portátiles. Estos avances incorporan herramientas computacionales e inteligencia artificial para apoyar la interpretación de registros electrofisiológicos [2], [5], [9], [12].
+Las condiciones de adquisición deben ser controladas para reducir interferencias relacionadas con movimiento y actividad muscular, lo que incrementa la complejidad técnica del procedimiento.
+
+Los desarrollos recientes han explorado sistemas automatizados y algoritmos computacionales para apoyar el procesamiento e interpretación de señales electrofisiológicas [2], [5], [9], [12].
 
 ---
 
 ## K.1.3 Evaluación basada en respuestas conductuales
 
-Además de los métodos fisiológicos, la evaluación auditiva infantil puede considerar respuestas observables posteriores a la presentación de estímulos sonoros. Estas manifestaciones pueden incluir orientación hacia la fuente sonora, cambios en la atención, movimientos cefálicos, modificaciones posturales y expresiones faciales [24], [31], [32].
+Además de los métodos fisiológicos, la evaluación auditiva infantil puede considerar respuestas observables generadas después de la presentación de estímulos sonoros.
 
-La audiometría por observación del comportamiento (Behavioral Observation Audiometry, BOA) utiliza este principio mediante la observación de cambios conductuales asociados temporalmente con estímulos auditivos.
+Estas manifestaciones pueden incluir:
 
-Sin embargo, la interpretación de estas respuestas presenta limitaciones debido a la influencia de factores como edad, desarrollo motor, estado de alerta, fatiga, interacción con el cuidador y experiencia del evaluador.
+- Orientación hacia la fuente sonora.
+- Cambios en la atención.
+- Movimientos cefálicos.
+- Expresiones faciales.
+- Modificaciones posturales.
 
-Por esta razón, las respuestas conductuales representan una fuente complementaria de información y requieren condiciones estructuradas de observación y análisis.
+La audiometría por observación del comportamiento (*Behavioral Observation Audiometry*, BOA) se fundamenta en este principio, utilizando cambios conductuales asociados temporalmente con estímulos auditivos [24].
+
+No obstante, estas respuestas presentan variabilidad debido a factores como edad, desarrollo motor, estado de alerta, interacción con el cuidador y condiciones ambientales.
 
 ---
 
@@ -47,79 +54,91 @@ Por esta razón, las respuestas conductuales representan una fuente complementar
 
 ## K.2.1 Desarrollo motor y variabilidad conductual
 
-Durante los primeros meses de vida, las respuestas conductuales frente a estímulos externos presentan una alta variabilidad debido al proceso progresivo de maduración motora y perceptiva.
+Durante los primeros meses de vida, el comportamiento infantil presenta una alta variabilidad debido al proceso progresivo de maduración motora y perceptiva.
 
-El control cefálico, la estabilidad postural y la capacidad de orientar la cabeza hacia estímulos externos evolucionan progresivamente durante esta etapa. En consecuencia, una respuesta observable puede presentar diferencias entre individuos e incluso entre diferentes ensayos realizados por un mismo bebé [31], [32].
+El control cefálico, la estabilidad postural y la capacidad de orientar movimientos hacia estímulos externos se desarrollan progresivamente, generando diferencias entre individuos e incluso entre diferentes momentos de evaluación de un mismo bebé [31], [32].
 
-La variabilidad conductual también está influenciada por factores como estado de alerta, fatiga, habituación, movimientos espontáneos e interacción con el cuidador.
+Por esta razón, las respuestas observables deben analizarse considerando el contexto de adquisición y no únicamente la presencia de un movimiento específico.
 
 ---
 
 ## K.2.2 Respuesta orientadora frente a estímulos sonoros
 
-La respuesta orientadora corresponde a un conjunto de cambios conductuales que pueden aparecer después de la presentación de un estímulo acústico.
+La respuesta orientadora corresponde a modificaciones conductuales asociadas temporalmente con la presentación de un estímulo acústico.
 
-Estas manifestaciones pueden incluir modificaciones en la orientación cefálica, atención visual, actividad motora o postura corporal. Sin embargo, la presencia de una respuesta observable no permite establecer por sí sola una relación directa con la percepción auditiva, debido a la influencia de múltiples factores asociados al comportamiento infantil.
+Puede manifestarse mediante cambios en:
 
-Por esta razón, el análisis de estas respuestas requiere considerar el contexto experimental, las condiciones iniciales del participante y la evolución temporal del comportamiento.
+- Orientación cefálica.
+- Atención visual.
+- Actividad motora.
+- Postura corporal.
 
----
+Sin embargo, una respuesta observable no representa necesariamente una percepción auditiva confirmada, debido a que diferentes factores pueden influir en el comportamiento registrado.
 
-# K.3 INTEGRACIÓN DE HERRAMIENTAS COMPUTACIONALES EN ANÁLISIS BIOMÉDICO
-
-Las herramientas computacionales aplicadas a contextos biomédicos permiten transformar información compleja obtenida mediante diferentes fuentes de adquisición en representaciones cuantificables.
-
-La visión por computador y el aprendizaje automático han sido utilizados para analizar imágenes, videos y señales, permitiendo identificar patrones que pueden complementar la interpretación realizada por profesionales especializados [25], [31]–[37], [41]–[46].
-
-Sin embargo, la incorporación de algoritmos computacionales en salud requiere considerar aspectos relacionados con la calidad de los datos, la trazabilidad de la información y la interpretación responsable de los resultados generados.
-
-Un sistema computacional aplicado a información biomédica debe conservar la relación entre:
-
-- Datos adquiridos.
-- Variables extraídas.
-- Procesamiento realizado.
-- Resultados obtenidos.
-
-Esta relación permite mantener el contexto original de la información y facilita procesos posteriores de revisión y análisis.
+Por esta razón, la interpretación requiere considerar las condiciones iniciales del bebé y la evolución temporal del comportamiento.
 
 ---
 
-# K.4 VISIÓN POR COMPUTADOR APLICADA AL ANÁLISIS DEL COMPORTAMIENTO INFANTIL
+# K.3 INTEGRACIÓN DE HERRAMIENTAS COMPUTACIONALES EN SALUD
+
+La incorporación de herramientas computacionales en aplicaciones biomédicas ha permitido transformar información compleja obtenida mediante diferentes fuentes de adquisición en variables cuantificables.
+
+La visión por computador y el aprendizaje automático han sido utilizados para analizar imágenes, videos y señales, permitiendo identificar patrones dentro de grandes volúmenes de información [25], [31]–[37], [41]–[46].
+
+Sin embargo, la aplicación de estas tecnologías requiere considerar aspectos relacionados con:
+
+- Calidad de los datos.
+- Representatividad de las muestras.
+- Interpretabilidad de resultados.
+- Trazabilidad de la información.
+
+En sistemas relacionados con salud, los modelos computacionales deben considerarse herramientas de apoyo que complementan la interpretación profesional.
+
+---
+
+# K.4 VISIÓN POR COMPUTADOR APLICADA AL COMPORTAMIENTO INFANTIL
 
 ## K.4.1 Detección facial y puntos de referencia geométricos
 
-Los algoritmos de detección facial permiten localizar regiones del rostro y establecer puntos de referencia geométricos (*facial landmarks*) asociados con estructuras como ojos, cejas, nariz y boca.
+Los algoritmos de detección facial permiten localizar regiones del rostro y establecer puntos de referencia geométricos (*facial landmarks*) asociados con ojos, cejas, nariz y boca.
 
-Estos puntos permiten representar la información facial mediante coordenadas espaciales que pueden analizarse durante una secuencia temporal.
+Estos puntos permiten representar la información visual mediante coordenadas espaciales y analizar cambios durante una secuencia temporal.
 
-A partir de estas coordenadas pueden calcularse:
+A partir de estas representaciones pueden calcularse:
 
 - Desplazamientos.
-- Velocidades.
-- Cambios angulares.
-- Variaciones relativas.
+- Variaciones angulares.
+- Velocidad de cambio.
+- Diferencias respecto a una condición inicial.
 
-Estas representaciones permiten transformar cambios visuales en variables cuantificables para el análisis computacional [48], [49].
+Estas técnicas permiten transformar información visual en variables cuantificables [48], [49].
 
 ---
 
-## K.4.2 Análisis del movimiento cefálico
+## K.4.2 Análisis del movimiento infantil
 
-El movimiento infantil constituye una fuente de información utilizada para caracterizar patrones motores y conductuales mediante técnicas computacionales.
+El movimiento infantil constituye una fuente de información utilizada para estudiar patrones motores y conductuales mediante herramientas computacionales.
 
-Diferentes investigaciones han empleado estimación de pose, seguimiento temporal y análisis de movimiento para estudiar trayectorias corporales y cambios posturales en población infantil [33]–[37].
+Diferentes investigaciones han empleado estimación de pose, seguimiento temporal y análisis de movimiento para caracterizar trayectorias corporales y cambios posturales en población infantil [33]–[37].
 
-Debido a la variabilidad natural del comportamiento infantil, los análisis computacionales suelen considerar características dinámicas y cambios relativos respecto a condiciones iniciales.
+Debido a la variabilidad natural del comportamiento infantil, estos métodos suelen considerar características dinámicas y cambios relativos.
 
 ---
 
 ## K.4.3 Indicadores faciales como información complementaria
 
-Las expresiones faciales pueden aportar información adicional sobre cambios conductuales observables durante una interacción experimental.
+Las expresiones faciales pueden aportar información adicional sobre cambios conductuales observables.
 
-Variables relacionadas con movimientos oculares, apertura bucal, posición de cejas y modificaciones de la configuración facial pueden ser analizadas mediante técnicas de procesamiento visual.
+Variables relacionadas con:
 
-Aunque estos indicadores no representan medidas directas de percepción auditiva, permiten describir componentes observables del comportamiento infantil y ampliar la representación del fenómeno estudiado.
+- Apertura ocular.
+- Parpadeo.
+- Movimiento de cejas.
+- Región oral.
+
+pueden ser analizadas mediante técnicas de procesamiento facial.
+
+Aunque estos indicadores no representan medidas directas de percepción auditiva, permiten ampliar la descripción computacional del comportamiento infantil.
 
 ---
 
@@ -127,37 +146,97 @@ Aunque estos indicadores no representan medidas directas de percepción auditiva
 
 ## K.5.1 Representación mediante características
 
-Los modelos de aprendizaje automático requieren transformar la información obtenida desde datos originales en variables cuantificables.
+Los modelos de aprendizaje automático requieren transformar los datos originales en representaciones cuantificables.
 
-En análisis de video, esta transformación puede incluir características relacionadas con movimiento, geometría facial, cambios temporales y relaciones espaciales.
+En análisis audiovisual, estas representaciones pueden incluir características relacionadas con:
 
-La selección adecuada de características influye directamente en la capacidad del modelo para identificar patrones dentro de los datos.
+- Movimiento.
+- Geometría facial.
+- Cambios temporales.
+- Relaciones espaciales.
+
+La calidad de estas características influye directamente en la capacidad del modelo para identificar patrones.
 
 ---
 
 ## K.5.2 Clasificación mediante Random Forest
 
-Random Forest es un algoritmo de aprendizaje supervisado basado en la combinación de múltiples árboles de decisión.
+Random Forest es un algoritmo supervisado basado en la combinación de múltiples árboles de decisión.
 
-Cada árbol realiza una clasificación independiente utilizando diferentes subconjuntos de datos y variables. Posteriormente, los resultados individuales son combinados para obtener una decisión final [46].
+Cada árbol genera una clasificación independiente utilizando diferentes subconjuntos de datos y variables. Posteriormente, los resultados son combinados para obtener una predicción final [46].
 
-Este algoritmo presenta ventajas para trabajar con conjuntos de datos multidimensionales, variables heterogéneas y relaciones no lineales.
+Este algoritmo presenta ventajas para trabajar con:
 
-Además, permite obtener medidas relacionadas con la importancia relativa de las características utilizadas durante la clasificación.
+- Múltiples variables de entrada.
+- Relaciones no lineales.
+- Datos heterogéneos.
+
+Además, permite estimar la importancia relativa de las características utilizadas.
 
 ---
 
-# K.6 REVISIÓN COMPLEMENTARIA DEL ESTADO DEL ARTE
+## K.5.3 Validación de modelos en población infantil
 
-La revisión estructurada de literatura permitió identificar avances relacionados con cuatro áreas principales:
+Los modelos aplicados a datos infantiles requieren estrategias de validación que consideren la variabilidad entre participantes.
 
-- Evaluación auditiva infantil y dispositivos tecnológicos.
-- Análisis computacional del comportamiento infantil.
-- Visión por computador aplicada a registros audiovisuales.
-- Aprendizaje automático aplicado a clasificación de patrones.
+Cuando existen múltiples registros del mismo individuo, una separación inadecuada puede generar dependencia entre entrenamiento y evaluación, produciendo estimaciones poco representativas.
 
-Los estudios revisados evidencian una tendencia hacia sistemas más portátiles, automatizados y orientados al análisis cuantitativo de información biomédica.
+Por esta razón, las estrategias agrupadas por participante permiten evaluar mejor la capacidad de generalización frente a nuevos individuos.
 
-Sin embargo, se identifica que gran parte de los desarrollos existentes se concentran en componentes específicos, como mediciones fisiológicas auditivas o análisis independiente del comportamiento infantil.
+---
 
-La integración de adquisición audiovisual, extracción automática de características, clasificación computacional y organización estructurada de registros constituye un área de interés para el desarrollo de herramientas tecnológicas complementarias.
+# K.6 PLATAFORMAS DIGITALES, USABILIDAD Y TRAZABILIDAD
+
+## K.6.1 Plataformas digitales en salud
+
+Las plataformas digitales permiten almacenar, organizar y consultar información generada durante procesos de adquisición y evaluación.
+
+Estas herramientas facilitan la integración de diferentes fuentes de datos y permiten conservar registros estructurados para análisis posteriores.
+
+---
+
+## K.6.2 Interacción humano-computador
+
+La interacción humano-computador estudia la relación entre usuarios y sistemas digitales con el objetivo de desarrollar interfaces comprensibles y eficientes.
+
+En aplicaciones relacionadas con salud, el diseño debe considerar diferentes perfiles de usuario y presentar la información de manera clara, diferenciando datos técnicos, resultados computacionales e interpretación profesional.
+
+---
+
+## K.6.3 Usabilidad y aceptación tecnológica
+
+La usabilidad permite evaluar la facilidad con la que un sistema puede ser utilizado dentro de un contexto específico.
+
+La escala SUS permite obtener una valoración global de percepción de uso [51].
+
+Por otra parte, el modelo TAM analiza factores relacionados con utilidad percibida y facilidad de uso como elementos asociados a la aceptación tecnológica [52].
+
+---
+
+## K.6.4 Trazabilidad de información
+
+La trazabilidad permite conservar la relación entre:
+
+- Datos adquiridos.
+- Procesamiento realizado.
+- Variables generadas.
+- Resultados obtenidos.
+
+Esta organización facilita reconstruir el contexto en el que fue generado un resultado y permite realizar revisiones posteriores.
+
+---
+
+# K.7 AMPLIACIÓN DEL ESTADO DEL ARTE
+
+La revisión estructurada de literatura identificó avances en cuatro áreas principales:
+
+1. Evaluación auditiva infantil.
+2. Análisis computacional del comportamiento infantil.
+3. Visión por computador.
+4. Aprendizaje automático aplicado a datos biomédicos.
+
+Los estudios revisados muestran una tendencia hacia sistemas más portátiles, automatizados y orientados al análisis cuantitativo de información.
+
+Sin embargo, gran parte de las soluciones existentes se enfocan en componentes individuales del proceso, dejando una oportunidad de integración entre adquisición audiovisual, análisis computacional y organización estructurada de evidencia.
+
+La tabla comparativa de estudios incluidos, estrategias de búsqueda, criterios de selección y análisis detallado de literatura se presenta en el Anexo A y los complementos de análisis bibliográfico en este anexo.
