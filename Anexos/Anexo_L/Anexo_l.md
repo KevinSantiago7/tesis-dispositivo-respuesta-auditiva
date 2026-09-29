@@ -168,17 +168,23 @@ Usuario involucrado:
 
 ---
 
-# L.7 Restricciones identificadas durante el desarrollo
+# L.7 Evolución de decisiones metodológicas
 
-Durante el desarrollo del dispositivo se identificaron diferentes restricciones técnicas y operativas:
+## L.7.1 Cambio de enfoque monocriterio a enfoque multimodal
 
-- Disponibilidad limitada de componentes comerciales.
-- Restricciones de comunicación entre módulos físicos.
-- Necesidad de adaptar la arquitectura inicial debido a limitaciones de interfaces.
-- Disponibilidad variable de participantes debido a factores asociados a coordinación familiar, disposición del bebé y disponibilidad de profesionales involucrados.
-- Necesidad de conservar condiciones experimentales controladas durante la adquisición de registros.
+Inicialmente el análisis del comportamiento se planteó considerando principalmente el movimiento cefálico como indicador observable posterior al estímulo sonoro.
 
-Estas restricciones fueron consideradas durante el proceso de diseño y permitieron ajustar la implementación final del prototipo.
+Durante el desarrollo se identificó que los bebés entre 0 y 6 meses presentan variabilidad en el control cefálico y en la capacidad de realizar movimientos orientados claramente identificables.
+
+Por esta razón, se incorporaron variables complementarias relacionadas con indicadores faciales y características temporales del comportamiento, permitiendo construir una representación multimodal del registro audiovisual.
+
+## L.7.2 Adaptación de la arquitectura hardware
+
+Durante la implementación se identificó una limitación relacionada con la cantidad disponible de interfaces físicas de la plataforma embebida.
+
+La arquitectura inicial consideraba conexiones independientes para cada componente; sin embargo, debido a la restricción de puertos disponibles, fue necesario incorporar un dispositivo móvil como módulo auxiliar para integrar funcionalidades adicionales.
+
+Esta decisión permitió conservar la funcionalidad requerida utilizando los recursos disponibles.
 
 ---
 
